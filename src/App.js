@@ -1,6 +1,7 @@
 import { Header } from "./components/Header/index";
 import { GlobalStyle } from "./globals/globalstyle";
 import { Banner } from "./components/Banner";
+import { Main } from "./components/Main";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <GlobalStyle/>
         <Header/>
         <Banner/>
+        <Main/>
     </div>
   
   );
