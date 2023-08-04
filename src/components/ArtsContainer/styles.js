@@ -5,3 +5,10 @@ export const ArtContainer = styled.div`
   height: auto;
 `
 
+export const ArtText = styled.h3`
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  top: 0.5rem; 
+  left: 0.25rem;
+`
