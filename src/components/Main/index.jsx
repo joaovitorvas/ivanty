@@ -1,14 +1,12 @@
-import { ArtistsContainer } from "../ArtistsContainer";
-import { Main } from "./styles";
+import { ArtistsContainer } from '../ArtistsContainer'
+import { Main } from "./styles.js";
+import { ArtsContainer } from '../ArtsContainer';
 
-export const Main = () => {
-    return (
-        <>
-            <Main>
-                <ArtistsContainer/>
-            <Main/>
-        </>
-     
-    );
-  }
-  
+export const MainContainer = () => {
+  return (
+    <Main>
+        <ArtistsContainer/>
+        <ArtsContainer/>
+    </Main>
+  );
+};
