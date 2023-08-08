@@ -1,17 +1,20 @@
-import { Header } from "./components/Header/index";
-import { GlobalStyle } from "./globals/globalstyle";
-import { Banner } from "./components/Banner";
-import { MainContainer } from "./components/Main";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+
+import { GlobalStyle } from './../src/globals/globalstyle';
+import { Home } from './pages/home/index'
 
 function App() {
   return (
-    <div className="App">
-      <GlobalStyle/>
-        <Header/>
-        <Banner/>
-        <MainContainer/>
-    </div>
-  
+    <Router>
+    <GlobalStyle />
+        <Routes>
+        <Route path="/" element={<Home />} />
+        </Routes>
+    </Router>
   );
 }
 
