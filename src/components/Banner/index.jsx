@@ -1,10 +1,9 @@
-import banner from './../../assets/images/banner.png'
 import './styles.css'
 
-export const Banner = () => {
+export const Banner = ({imagem}) => {
     return (
         <>
-           <img src={banner} alt=""/>
+           <img src={imagem} alt=""/>
         </>
     );
   }

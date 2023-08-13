@@ -1,12 +1,12 @@
 import { Header } from '../../components/Header'
 import { Banner } from '../../components/Banner'
-import { MainContainer } from '../../components/Main';
+import pintura from './../../assets/images/pintura.jpg'
 
 const Pinturas = () => {
   return (
     <div className="Pinturas">
       <Header/>
-      <Banner/>
+      <Banner imagem={pintura}/>
     </div>
   );
 }
