@@ -6,6 +6,7 @@ import {
 
 import { GlobalStyle } from './../src/globals/globalstyle';
 import { Home } from './pages/home/index'
+import { Pinturas } from './pages/pinturas/index'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <GlobalStyle />
         <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/pinturas" element={<Pinturas />} />
         </Routes>
     </Router>
   );
