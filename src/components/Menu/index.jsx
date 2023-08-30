@@ -9,9 +9,9 @@ export const Menu = () => {
                     <span></span>
                 </label>
                 <ul className="menu__box">
-                    <li>Cadastrar</li>   
-                    <li>Cadastrar</li>   
-                    <li>Cadastrar</li>   
+                    <li>Cadastrar-se</li>   
+                    <li></li>   
+                    <li></li>   
                 </ul>
             </div>
         </>
