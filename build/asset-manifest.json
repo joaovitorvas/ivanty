@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b939eac2.css",
+    "main.js": "/static/js/main.eb2f3101.js",
+    "static/media/banner.png": "/static/media/banner.fd04cd8403e7730d4e03.png",
+    "static/media/artist.jpg": "/static/media/artist.8fed7397aebed591ac41.jpg",
+    "static/media/Rectangle 6.png": "/static/media/Rectangle 6.31581c69c13aa3d06bf2.png",
+    "static/media/pintura.jpg": "/static/media/pintura.b60208aa7f6787f4493c.jpg",
+    "static/media/Logotipo.svg": "/static/media/Logotipo.ec180255e5e2fdb520f0286e93f667f1.svg",
+    "static/media/card.svg": "/static/media/card.190c60245f1afb6448a2d7da0716f29e.svg",
+    "index.html": "/index.html",
+    "main.b939eac2.css.map": "/static/css/main.b939eac2.css.map",
+    "main.eb2f3101.js.map": "/static/js/main.eb2f3101.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b939eac2.css",
+    "static/js/main.eb2f3101.js"
+  ]
+}
