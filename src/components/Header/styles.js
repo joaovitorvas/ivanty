@@ -25,6 +25,6 @@ export const NavigateButton = styled.button`
   border-radius: 3rem;
   text-align: center;
   color: #fff;
-  font-family: Roboto;font-family: 'Roboto', sans-serif;
-  text-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: .9rem;
 `
