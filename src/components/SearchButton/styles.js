@@ -6,6 +6,6 @@ export const SearchBox = styled.input`
     border-radius: 0.9375rem;
     background: #353535;
     font-size: 16px;
-    margin: auto 0;
+    margin-top: 2rem;
     margin-left: 0.5rem;
 `
