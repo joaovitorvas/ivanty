@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const HeaderContainers = styled.header`
-  height: 10rem;
+  height: 12rem;
   background: #000;
 
 `
@@ -23,4 +23,8 @@ export const NavigateButton = styled.button`
   margin: 0 auto;
   background: #7b87c2;
   border-radius: 3rem;
+  text-align: center;
+  color: #fff;
+  font-family: Roboto;font-family: 'Roboto', sans-serif;
+  text-size: 1.5rem;
 `

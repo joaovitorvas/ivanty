@@ -4,7 +4,7 @@ import './styles.css'
 export const Card = () => {
     return (
         <>
-        <a href="/">
+        <a href="/card">
            <img src={card} alt="" className="card"/>
         </a>
         </>

@@ -17,9 +17,9 @@ export const Header = () => {
           <Menu/>
         </FirstHeaderContainer>
         <SecondHeaderContainer>
-          <NavigateButton></NavigateButton>
-          <NavigateButton></NavigateButton>
-          <NavigateButton></NavigateButton>
+          <NavigateButton>Destaque</NavigateButton>
+          <NavigateButton>Lançamentos</NavigateButton>
+          <NavigateButton>Artistas</NavigateButton>
         </SecondHeaderContainer>
       </HeaderContainers>
 
