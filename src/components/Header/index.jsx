@@ -17,9 +17,15 @@ export const Header = () => {
           <Menu/>
         </FirstHeaderContainer>
         <SecondHeaderContainer>
-          <NavigateButton>Destaque</NavigateButton>
-          <NavigateButton>Lançamentos</NavigateButton>
-          <NavigateButton>Artistas</NavigateButton>
+          <a href="/">
+            <NavigateButton>Destaque</NavigateButton>
+          </a>
+          <a href="/">
+            <NavigateButton>Lançamentos</NavigateButton>
+          </a>
+          <a href="/">
+            <NavigateButton>Artistas</NavigateButton>
+          </a>
         </SecondHeaderContainer>
       </HeaderContainers>
 

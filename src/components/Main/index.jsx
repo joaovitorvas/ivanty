@@ -6,8 +6,6 @@ export const MainContainer = () => {
     <Main>
         <ArtistsContainer/>
 
-        {/* <ArtsContainer/>
-        <ArtsContainer/> */}
     </Main>
   );
 };

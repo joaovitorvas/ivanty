@@ -33,7 +33,7 @@
   width: 100%;
   height: 2px;
   /*Cor do Simbolo do Menu */
-  background-color: white;
+  background-color: #7B87C2;
   transition-duration: .25s;
 }
 .menu__btn > span::before {
@@ -69,18 +69,15 @@
   text-decoration: none;
   transition-duration: .25s;
 }
+
 .menu__item:hover {
-  background-color: #000000;
-}  
+background-color:#000000
+}
 
 .menu__itemcadastro{
-  display: block;
-  padding: 12px 24px;
-  color: #333;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  text-decoration: none;
-  transition-duration: .25s;
-  bottom: auto;
+display:block;padding:
+12px
+24px;color:#333;font-family:'Roboto',sans-serif;font-size:
+20px;font-weight:
+600;text-decoration:none;transition-duration:.25s;bottom:auto
 }

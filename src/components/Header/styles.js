@@ -27,4 +27,5 @@ export const NavigateButton = styled.button`
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: .9rem;
+  border: none;
 `
