@@ -20,6 +20,7 @@ function App() {
         <Route path="/pinturas" element={<Pinturas />} />
         <Route path="/card" element={<Card />} />
         <Route path="/perfil" element={<Perfil />} />
+        <Route path="/pinturas" element={<Pinturas />} />
         {/* <Route path="/oGrito" element={<PinturaOGrito />} /> */}
         </Routes>
     </Router>

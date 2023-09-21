@@ -1,11 +1,17 @@
 import { Header } from '../../components/Header'
-import { CardsContainer } from '../../components/CardsContainer';
+import { CardPainting, CardTitle, CardsContainer, GridContainer } from './styles';
+import cardPainting from './../../assets/images/oGrito.jpg'
 
 const Card = () => {
   return (
     <div className="Pinturas">
       <Header/>
-      <CardsContainer></CardsContainer>
+      <CardsContainer>
+        <CardTitle>Produtos</CardTitle>
+        <GridContainer>
+          <CardPainting src={cardPainting} />
+        </GridContainer>  
+      </CardsContainer>
     </div>
   );
 }
