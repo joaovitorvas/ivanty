@@ -7,6 +7,8 @@ export const MainContainer = () => {
     <Main>
         <ArtistsContainer/>
         <Categories />
+        <Categories />
+        <Categories />
     </Main>
   );
 };
