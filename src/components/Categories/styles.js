@@ -1,30 +1,23 @@
-import styled from 'styled-components'
-import painting from './../../assets/images/pintura.jpg'
+import styled from 'styled-components';
 
 export const ImgContainer = styled.div`
   margin-top: 2rem;
   width: 100%;
   height: 20.6875rem;
   flex-shrink: 0;
-  opacity: 0.5;
-  background: url(${painting}), lightgray 50% / cover no-repeat;
-`
-export const ImgContainer2 = styled.div`
-  margin-top: 2rem;
-  width: 100%;
-  height: 20.6875rem;
-  flex-shrink: 0;
-  opacity: 0.5;
-  background: url(${painting}), lightgray 50% / cover no-repeat;
-`
-export const ImgContainer3 = styled.div`
-  margin-top: 2rem;
-  width: 100%;
-  height: 20.6875rem;
-  flex-shrink: 0;
-  opacity: 0.5;
-  background: url(${painting}), lightgray 50% / cover no-repeat;
-`
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(${(props) => props.backgroundImage}) center / cover no-repeat;
+    opacity: 0.5; /* Defina a opacidade desejada aqui */
+  }
+`;
 
 export const CategoriesTitle = styled.p`
   color: #FFF;
@@ -39,4 +32,4 @@ export const CategoriesTitle = styled.p`
   top: 90%;
   left: 1rem;
   opacity: 1;
-`
+`;

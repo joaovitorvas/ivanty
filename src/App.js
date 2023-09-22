@@ -10,6 +10,7 @@ import { Pinturas } from './pages/pinturas/index'
 // import { PinturaOGrito } from './pages/pinturaOGrito/index'
 import { Card } from "./pages/card";
 import { Perfil } from "./pages/perfil";
+import Carrossel from "./components/Carrossel";
 
 function App() {
   return (
