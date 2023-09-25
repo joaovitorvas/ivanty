@@ -11,6 +11,7 @@ import { Pinturas } from './pages/pinturas/index'
 import { Card } from "./pages/card";
 import { Perfil } from "./pages/perfil";
 import Carrossel from "./components/Carrossel";
+import Login from "./pages/forms";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/card" element={<Card />} />
         <Route path="/perfil" element={<Perfil />} />
         <Route path="/pinturas" element={<Pinturas />} />
+        <Route path="/forms" element={<Login />} />
         {/* <Route path="/oGrito" element={<PinturaOGrito />} /> */}
         </Routes>
     </Router>

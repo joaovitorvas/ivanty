@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.09e8acfd.css",
-    "main.js": "/static/js/main.01838d83.js",
+    "main.css": "/static/css/main.0e608cb0.css",
+    "main.js": "/static/js/main.2a177abc.js",
     "static/media/banner.png": "/static/media/banner.fd04cd8403e7730d4e03.png",
     "static/media/artist.jpg": "/static/media/artist.8fed7397aebed591ac41.jpg",
     "static/media/campoDeTrigo.jpg": "/static/media/campoDeTrigo.b5eb8ab374cfe8a80ab5.jpg",
+    "static/media/fotografia.jfif": "/static/media/fotografia.8ab1fb034b31066a18ad.jfif",
     "static/media/oGrito.jpg": "/static/media/oGrito.8d3e881a06e7d59f6a30.jpg",
     "static/media/perfilImage.jpg": "/static/media/perfilImage.dc4273582c5ed98f49e3.jpg",
     "static/media/pintura.jpg": "/static/media/pintura.b60208aa7f6787f4493c.jpg",
@@ -12,11 +13,11 @@
     "static/media/card.svg": "/static/media/card.798976403b2f5e533e276f237bf15c5d.svg",
     "index.html": "/index.html",
     "static/media/heart.svg": "/static/media/heart.eb945fabb4c7a4813663dc84d2d1da1a.svg",
-    "main.09e8acfd.css.map": "/static/css/main.09e8acfd.css.map",
-    "main.01838d83.js.map": "/static/js/main.01838d83.js.map"
+    "main.0e608cb0.css.map": "/static/css/main.0e608cb0.css.map",
+    "main.2a177abc.js.map": "/static/js/main.2a177abc.js.map"
   },
   "entrypoints": [
-    "static/css/main.09e8acfd.css",
-    "static/js/main.01838d83.js"
+    "static/css/main.0e608cb0.css",
+    "static/js/main.2a177abc.js"
   ]
 }
