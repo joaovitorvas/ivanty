@@ -12,7 +12,7 @@ export const Menu = () => {
                 <ul class="menu__box">
                 <li><a class="menu__item" href="/">Home</a></li>
                 <li><a class="menu__item" href="/perfil">Perfil</a></li>
-                <li><a class="menu__item" href="#">Team</a></li>
+                <li><a class="menu__item" href="/login">Log-in</a></li>
                 </ul>
             </div>
         </>

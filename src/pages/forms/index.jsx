@@ -5,6 +5,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 
 import { Container, LoginContainer, Column, Spacing, Title } from "./styles";
+import { LogoBox } from "../../components/LogoContainer";
 
 const schema = yup
   .object({
@@ -32,6 +33,7 @@ const Login = () => {
     <Container>
       <LoginContainer>
         <Column>
+        <LogoBox></LogoBox>
           <Title>Login</Title>
           <Spacing />
           <Input
