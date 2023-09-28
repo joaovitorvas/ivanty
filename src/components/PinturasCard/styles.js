@@ -74,10 +74,10 @@ export const BuyButtonText = styled.p`
 `
 
 export const HeartIcon = styled.img`
-    width: 3rem;
+    max-width: 2.8rem;
     height: auto;
     text-align: center;
-    margin-left: 1.5rem;
+    margin-left: 15%;
 `
 
 export const Icons = styled.div`
