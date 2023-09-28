@@ -1,17 +1,12 @@
 import { Header } from '../../components/Header'
-import { CardPainting, CardTitle, CardsContainer, GridContainer } from './styles';
+import { CardBox } from '../../components/CardBox';
 import cardPainting from './../../assets/images/oGrito.jpg'
 
-const Card = () => {
+const Card = (props) => {
   return (
     <div className="Pinturas">
       <Header/>
-      <CardsContainer>
-        <CardTitle>Produtos</CardTitle>
-        <GridContainer>
-          <CardPainting src={cardPainting} />
-        </GridContainer>  
-      </CardsContainer>
+      <CardBox painting={cardPainting} title={'O grito'} author={'Edward Munch'} price={'799.99'}/>
     </div>
   );
 }
