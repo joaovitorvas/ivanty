@@ -115,7 +115,7 @@ const Footer = () => {
             <li>
               <input type="text" placeholder="Digite uma melhora" />
             </li>
-            <a href="index.html">
+            <a href="./">
               <li>
                 <input type="button" value="Enviar" />
               </li>
