@@ -1,23 +1,24 @@
-import { BuyButton, BuyButtonText, GridContainer, GridContainer2, HeartIcon, PinturaAuthor, PinturaContainer, PinturaDetails, PinturaImg, PinturaPrice, PinturaTitle } from "./styles";
+import { BuyButton, BuyButtonText, GridContainer, GridContainer2, HeartIcon, Icons, PinturaAuthor, PinturaContainer, PinturaDetails, PinturaImg, PinturaPrice, PinturaTitle } from "./styles";
 import campoDeTrigo from './../../assets/images/campoDeTrigo.jpg'
 import heart from './../../assets/images/heart.svg'
+import card from './../../assets/images/card.svg'
 
-export const PinturasCard = () => {
+export const PinturasCard = (props) => {
   return (
     <>
         <PinturaContainer>
-            <PinturaImg src={campoDeTrigo}/>
+            <PinturaImg src={props.img}/>
             <GridContainer>
                 <PinturaDetails>
                     <PinturaTitle>
-                        Campo de Trigo
+                        {props.title}
                     </PinturaTitle>
                     <PinturaAuthor>
-                        Van Gogh
+                        {props.author}
                     </PinturaAuthor>
                 </PinturaDetails>
                 <PinturaPrice>
-                    R$ 799,99
+                    R$ {props.price}
                 </PinturaPrice>
             </GridContainer>
             <GridContainer2>
@@ -26,6 +27,10 @@ export const PinturasCard = () => {
                         COMPRAR
                     </BuyButtonText>
                 </BuyButton>
+                <Icons>
+                    <HeartIcon src={heart}/>
+                    <HeartIcon src={card}/>
+                </Icons>
             </GridContainer2>
         </PinturaContainer>
     </>

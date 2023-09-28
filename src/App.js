@@ -11,6 +11,7 @@ import { Pinturas } from './pages/pinturas/index'
 import { Card } from "./pages/card";
 import { Perfil } from "./pages/perfil";
 import Login from "./pages/forms";
+import { Fotografias } from "./pages/fotografias";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
         <Route path="/pinturas" element={<Pinturas />} />
         <Route path="/card" element={<Card />} />
         <Route path="/perfil" element={<Perfil />} />
+        <Route path="/perfil" element={<Perfil />} />
+        <Route path="/fotografias" element={<Fotografias />} />
         <Route path="/pinturas" element={<Pinturas />} />
         <Route path="/login" element={<Login />} />
         {/* <Route path="/oGrito" element={<PinturaOGrito />} /> */}
