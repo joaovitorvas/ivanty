@@ -6,10 +6,11 @@ import image1 from './../../assets/images/artist.jpg'
 import image2 from './../../assets/images/artist.jpg'
 import image3 from './../../assets/images/artist.jpg'
 import image4 from './../../assets/images/artist.jpg'
+import image5 from './../../assets/images/artist.jpg'
+import image6 from './../../assets/images/artist.jpg'
 
 import { Artist, ArtistName, ArtistPicture } from '../ArtistsContainer/styles';
 
-const images = [image1, image2, image3, image4]
 function Carousel() {
   const carousel = useRef();
   const [width, setWidth] = useState(0);
@@ -19,7 +20,8 @@ function Carousel() {
     setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth);
   }, []);
   
-  const images = [image1, image2, image3, image4]; // Importe as imagens conforme necessário
+
+  const images = [image1, image2, image3, image4, image5, image6] // Importe as imagens conforme necessário
   
   return (
     <div className="App">

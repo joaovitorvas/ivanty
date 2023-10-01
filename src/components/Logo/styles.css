@@ -3,3 +3,11 @@
     margin-top: 1.9rem; 
     margin-left: .7rem;
 }
+
+@media screen and (min-width: 600px) {
+    .logo {
+        width: 40%;
+        margin-top: 2rem; 
+        margin-left: 3rem;
+    }
+}

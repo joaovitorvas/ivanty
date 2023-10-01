@@ -60,10 +60,21 @@ export const GridContainer = styled.div`
 export const PaintingsList = styled.div`
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr;
+
+    @media screen and (min-width: 600px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
 `
 
 export const PaintingThumbnail = styled.img`
     border: .3rem solid #000;
     width: 100%;
     height: 9rem;
+
+    @media screen and (min-width: 600px) {
+        border: .3rem solid #000;
+        width: 100%;
+        height: 10rem;
+    }
 `

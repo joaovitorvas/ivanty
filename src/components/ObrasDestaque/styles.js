@@ -7,6 +7,16 @@ export const ObrasEmDestaqueContainer = styled.div`
     background: #7B87C2;
 `
 
+export const GridContainer = styled.div`
+    display: grid;
+    grid-template-columns: 1fr;
+
+    @media screen and (min-width: 600px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+`
+
 export const ObrasText = styled.h2`
     color: #FFF;
     font-family: Roboto;

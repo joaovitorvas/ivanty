@@ -4,10 +4,18 @@ export const HeaderContainers = styled.header`
   height: 12rem;
   background: #000;
 
+  @media screen and (min-width: 600px) {
+    height: 13rem;
+}
 `
 export const FirstHeaderContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 3fr 1fr 1fr;
+
+  @media screen and (min-width: 600px) {
+    display: grid;
+  grid-template-columns: 1fr 4fr 1fr 1fr;
+}
 `
 
 export const SecondHeaderContainer = styled.div`

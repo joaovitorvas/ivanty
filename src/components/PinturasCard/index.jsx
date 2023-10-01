@@ -1,9 +1,19 @@
 import { BuyButton, BuyButtonText, GridContainer, GridContainer2, HeartIcon, Icons, PinturaAuthor, PinturaContainer, PinturaDetails, PinturaImg, PinturaPrice, PinturaTitle } from "./styles";
-import campoDeTrigo from './../../assets/images/campoDeTrigo.jpg'
 import heart from './../../assets/images/heart.svg'
 import card from './../../assets/images/card.svg'
+import heartP from './../../assets/images/heartPrenchido.svg'
+
+
+import React, { useState } from 'react';
 
 export const PinturasCard = (props) => {
+
+const [isHeartFilled, setIsHeartFilled] = useState(false);
+
+  const handleHeartClick = () => {
+    setIsHeartFilled(!isHeartFilled);
+  };
+
   return (
     <>
         <PinturaContainer>
@@ -28,7 +38,7 @@ export const PinturasCard = (props) => {
                     </BuyButtonText>
                 </BuyButton>
                 <Icons>
-                    <HeartIcon src={heart}/>
+                    <HeartIcon src={isHeartFilled ? heartP : heart} onClick={handleHeartClick}/>
                     <HeartIcon src={card}/>
                 </Icons>
             </GridContainer2>

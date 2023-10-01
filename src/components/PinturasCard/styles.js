@@ -10,6 +10,10 @@ export const PinturaContainer = styled.div`
     padding: 1.5rem;
     background: #000;
     margin-top: 1rem;
+
+    @media screen and (min-width: 600px) {
+        margin: 1rem;
+    }
 `
 
 export const GridContainer = styled.div`
