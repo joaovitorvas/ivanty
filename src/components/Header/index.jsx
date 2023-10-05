@@ -20,10 +20,10 @@ export const Header = () => {
           <a href="/">
             <NavigateButton>Cadastrar-se</NavigateButton>
           </a>
-          <a href="/">
+          <a href="/login">
             <NavigateButton>Log-in</NavigateButton>
           </a>
-          <a href="/">
+          <a href="/login">
             <NavigateButton>Categorias</NavigateButton>
           </a>
         </SecondHeaderContainer>
