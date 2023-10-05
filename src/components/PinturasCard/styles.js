@@ -8,8 +8,9 @@ export const PinturaImg = styled.img`
 
 export const PinturaContainer = styled.div`
     padding: 1.5rem;
-    background: #000;
-    margin-top: 1rem;
+    background: #3d3d3d;
+    margin: 1rem;
+    border-radius: 1rem;
 
     @media screen and (min-width: 600px) {
         margin: 1rem;
@@ -81,7 +82,7 @@ export const HeartIcon = styled.img`
     max-width: 2.8rem;
     height: auto;
     text-align: center;
-    margin-left: 15%;
+    margin-left: 12%;
 `
 
 export const Icons = styled.div`

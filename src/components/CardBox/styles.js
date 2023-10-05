@@ -8,6 +8,7 @@ export const CardsContainer = styled.div`
 `
 
 export const CardBox = styled.div`
+    margin: 1rem;
     border-radius: 2rem;
     background: #000;
     display: grid;
