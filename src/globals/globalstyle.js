@@ -15,4 +15,20 @@ export const GlobalStyle = createGlobalStyle`
     a{
         text-decoration: none;
     }
+
+    .headerTelasMenores {
+        display: block;
+      }
+      .headerTelasMaiores {
+          display: none;
+      }
+
+    @media (min-width: 821px) {
+        .headerTelasMenores {
+          display: none;
+        }
+        .headerTelasMaiores {
+            display: block;
+        }
+      }
 `

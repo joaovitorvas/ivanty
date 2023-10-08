@@ -83,6 +83,8 @@ export const HeartIcon = styled.img`
     height: auto;
     text-align: center;
     margin-left: 12%;
+
+    
 `
 
 export const Icons = styled.div`

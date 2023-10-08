@@ -7,9 +7,9 @@ import { Card } from "../Card";
 import { NavigateButton } from "./styles";
 import { SecondHeaderContainer } from "./styles";
 
-export const Header = () => {
+export const HeaderPC = () => {
     return (
-      <div className="headerTelasMenores">
+      <div className="headerTelasMaiores">
 
       <HeaderContainers>
         <FirstHeaderContainer>

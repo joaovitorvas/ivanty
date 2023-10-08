@@ -43,14 +43,14 @@
 .menu__btn > span::after {
   content: '';
   top: 8px;
-}
+}  
 
 .menu__box {
   display: block;
   position: absolute;
   top: 0;
   left: -100%;
-  width: 300px;
+  max-width: 300px;
   height: 100%;
   margin: 0;
   padding: 80px 0;
@@ -59,6 +59,23 @@
   z-index: 999; /* Adicione um valor alto de z-index */
   transition-duration: .25s;
 }
+
+@media only screen and (min-device-width: 300px) {
+  .menu__box {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #000000;
+    z-index: 999; /* Adicione um valor alto de z-index */
+    transition-duration: .25s;
+  }  
+}  
 
 
 .menu__item {
