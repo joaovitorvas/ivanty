@@ -66,6 +66,8 @@ export const BuyButton = styled.div`
     border-radius: 1.25rem;
     background: #7B87C2;
     padding: 1.25rem;
+
+    cursor: pointer;
 `
 
 export const BuyButtonText = styled.p`
@@ -82,9 +84,15 @@ export const HeartIcon = styled.img`
     max-width: 2.8rem;
     height: auto;
     text-align: center;
-    margin-left: 12%;
 
+    margin-left: 2%;
+
+    @media screen and (min-width: 400px) {
+        margin-left: 12%;
+    }
     
+
+    cursor: pointer;
 `
 
 export const Icons = styled.div`

@@ -1,6 +1,8 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');    
+
     * {
         font-family: 'Roboto', sans-serif;
         box-sizing: border-box;
@@ -23,7 +25,7 @@ export const GlobalStyle = createGlobalStyle`
           display: none;
       }
 
-    @media (min-width: 821px) {
+    @media (min-width: 720px) {
         .headerTelasMenores {
           display: none;
         }

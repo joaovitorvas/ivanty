@@ -17,12 +17,22 @@ export const PerfilPhoto = styled.img`
     border-radius: 10.875rem;
     flex-shrink: 0;
     bottom: 5rem;
+
+    @media screen and (min-width: 600px) {
+        width: 13rem;
+        height: auto;
+        bottom: 10rem;
+    }
 `
 
 export const PerfilDescription = styled.div`
     padding: 2rem;
     background: #7B87C2;
     margin-bottom: 1rem;
+
+    @media screen and (min-width: 600px) {
+        padding: 2rem 5rem;
+    }
 `
 
 export const PerfilName = styled.p`
@@ -32,6 +42,10 @@ export const PerfilName = styled.p`
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+
+    @media screen and (min-width: 600px) {
+        font-size: 1.7rem;
+    }
 `
 
 export const PerfilHead = styled.p`
@@ -39,8 +53,12 @@ export const PerfilHead = styled.p`
     font-family: Roboto;
     font-size: 15px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: normal;
+
+    @media screen and (min-width: 600px) {
+        font-size: 1.1rem;
+    }
 `
 
 export const PerfilBio = styled.p`
@@ -51,6 +69,12 @@ export const PerfilBio = styled.p`
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+
+    @media screen and (min-width: 600px) {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        font-size: 1.1rem;
+    }
 `
 export const GridContainer = styled.div`
     display: grid;
@@ -62,6 +86,7 @@ export const PaintingsList = styled.div`
     grid-template-columns: 1fr 1fr 1fr;
 
     @media screen and (min-width: 600px) {
+        padding: 0 5rem;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
@@ -75,6 +100,10 @@ export const PaintingThumbnail = styled.img`
     @media screen and (min-width: 600px) {
         border: .3rem solid #000;
         width: 100%;
-        height: 10rem;
+        height: 100%;
     }
+`
+
+export const ContainerNameBio = styled.div`
+    text-align: right;
 `

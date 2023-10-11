@@ -1,21 +1,13 @@
 import styled from 'styled-components'
 
 export const HeaderContainers = styled.header`
-  height: 12rem;
+  height: 5rem;
   background: #000;
-
-  @media screen and (min-width: 600px) {
-    height: 13rem;
-}
 `
 export const FirstHeaderContainer = styled.div`
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr 1fr;
-
-  @media screen and (min-width: 600px) {
-    display: grid;
-  grid-template-columns: 1fr 4fr 1fr 1fr;
-}
+  margin: 0 5rem;
+  grid-template-columns: 5rem 10rem 1fr 5rem;
 `
 
 export const SecondHeaderContainer = styled.div`
@@ -36,4 +28,13 @@ export const NavigateButton = styled.button`
   font-family: 'Roboto', sans-serif;
   font-size: .9rem;
   border: none;
+`
+
+export const Name = styled.p`
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #fff; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
