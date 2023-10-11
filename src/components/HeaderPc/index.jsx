@@ -1,10 +1,7 @@
-import { HeaderContainers, Name } from "./styles";
+import { HeaderContainers, LogoNameContainer, LogoNameText, Logo, MenuPC, MenuItem } from "./styles";
 import { FirstHeaderContainer } from "./styles";
-import { Logo } from "../Logo";
-import { SearchButton } from "../SearchButtonPC";
-import { Card } from "../Card";
-import { NavigateButton } from "./styles";
-import { SecondHeaderContainer } from "./styles";
+import {SearchButton} from './../components/SearchButton'
+import logo from './../../assets/images/Logotipo.svg'
 
 export const HeaderPC = () => {
     return (
@@ -12,10 +9,18 @@ export const HeaderPC = () => {
 
       <HeaderContainers>
         <FirstHeaderContainer>
-          <Logo/> 
-          <Name>Ivanty</Name>
+          <LogoNameContainer>
+            <Logo src={logo}/>
+            <LogoNameText>Ivanty</LogoNameText>
+          </LogoNameContainer>
+          <MenuPC>
+            <MenuItem>Categorias</MenuItem>
+            <MenuItem>Perfil</MenuItem>
+            <MenuItem>Obras</MenuItem>
+            <MenuItem>Artistas</MenuItem>
+            <MenuItem>Sobre</MenuItem>
+          </MenuPC>
           <SearchButton></SearchButton>
-          <Card></Card>
         </FirstHeaderContainer>
        
       </HeaderContainers>

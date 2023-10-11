@@ -5,8 +5,8 @@ img {
 
 @media screen and (min-width: 600px) {
     img {
-        width: auto;
-        height: 30rem;
+        width: 100%;
+        height: auto;
 
         text-align: center;
     }

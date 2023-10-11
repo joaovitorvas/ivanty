@@ -7,7 +7,7 @@ export const HeaderContainers = styled.header`
 export const FirstHeaderContainer = styled.div`
   display: grid;
   margin: 0 5rem;
-  grid-template-columns: 5rem 10rem 1fr 5rem;
+  grid-template-columns: 1fr 3.5fr 0.5fr 0.5fr;
 `
 
 export const SecondHeaderContainer = styled.div`
@@ -37,4 +37,41 @@ export const Name = styled.p`
   display: flex;
   justify-content: center;
   align-items: center;
+`
+
+export const LogoNameContainer = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  margin-top: 2rem;
+`
+
+export const LogoNameText = styled.p`
+  color: #FFF;
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+`
+
+export const Logo = styled.img`
+  height: 3rem;
+`
+
+export const MenuPC = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+`
+
+export const MenuItem = styled.p`
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: auto;
 `
