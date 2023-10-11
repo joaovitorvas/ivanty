@@ -1,6 +1,7 @@
-import { HeaderContainers, LogoNameContainer, LogoNameText, Logo, MenuPC, MenuItem } from "./styles";
+import { HeaderContainers, LogoNameContainer, LogoNameText, Logo, MenuPC, MenuItem, AMenuItem, IvantyItem, IvantyAMenuItem } from "./styles";
 import { FirstHeaderContainer } from "./styles";
-import {SearchButton} from './../components/SearchButton'
+import { SearchButton } from './../SearchButtonPC'
+import { Card } from './../Card'
 import logo from './../../assets/images/Logotipo.svg'
 
 export const HeaderPC = () => {
@@ -9,18 +10,28 @@ export const HeaderPC = () => {
 
       <HeaderContainers>
         <FirstHeaderContainer>
-          <LogoNameContainer>
+          <a href="/">
             <Logo src={logo}/>
-            <LogoNameText>Ivanty</LogoNameText>
-          </LogoNameContainer>
+          </a>
           <MenuPC>
-            <MenuItem>Categorias</MenuItem>
-            <MenuItem>Perfil</MenuItem>
-            <MenuItem>Obras</MenuItem>
-            <MenuItem>Artistas</MenuItem>
-            <MenuItem>Sobre</MenuItem>
+            <AMenuItem href={'./categories'}>
+              <MenuItem>Categorias</MenuItem>
+            </AMenuItem>
+            <AMenuItem href={'./perfil'}>
+              <MenuItem>Perfil</MenuItem>
+            </AMenuItem>
+            <AMenuItem href={'./obras'}>
+              <MenuItem>Obras</MenuItem>
+            </AMenuItem>
+            <AMenuItem href={'./profile'}>
+              <MenuItem>Artistas</MenuItem>
+            </AMenuItem>
+            <AMenuItem href={'./about'}>
+              <MenuItem>Sobre</MenuItem>
+            </AMenuItem>
           </MenuPC>
           <SearchButton></SearchButton>
+          <Card></Card>
         </FirstHeaderContainer>
        
       </HeaderContainers>

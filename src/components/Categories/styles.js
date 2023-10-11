@@ -17,6 +17,10 @@ export const ImgContainer = styled.div`
     background: url(${(props) => props.backgroundImage}) center / cover no-repeat;
     opacity: 0.5; /* Defina a opacidade desejada aqui */
   }
+
+  @media screen and (min-width: 800px) {
+    height: 30rem;
+  }
 `;
 
 export const CategoriesTitle = styled.p`
@@ -33,3 +37,9 @@ export const CategoriesTitle = styled.p`
   left: 1rem;
   opacity: 1;
 `;
+
+export const Container = styled.div`
+  @media screen and (min-width: 800px) {
+    margin: 1rem; 
+  }
+`

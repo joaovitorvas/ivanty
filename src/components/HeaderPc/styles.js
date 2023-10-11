@@ -7,7 +7,7 @@ export const HeaderContainers = styled.header`
 export const FirstHeaderContainer = styled.div`
   display: grid;
   margin: 0 5rem;
-  grid-template-columns: 1fr 3.5fr 0.5fr 0.5fr;
+  grid-template-columns: 40px 3.5fr 1fr 0.5fr;
 `
 
 export const SecondHeaderContainer = styled.div`
@@ -47,6 +47,11 @@ export const LogoNameContainer = styled.div`
 `
 
 export const LogoNameText = styled.p`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
   color: #FFF;
   text-align: center;
   font-family: Playfair Display;
@@ -57,14 +62,24 @@ export const LogoNameText = styled.p`
 `
 
 export const Logo = styled.img`
-  height: 3rem;
+  width: 40px;
+  height: auto;
+  margin-top: 1.4rem; 
+  margin-left: 2.5rem;
 `
 
 export const MenuPC = styled.div`
+  margin-left: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 `
+export const AMenuItem = styled.a`
+  margin-top: 2.2rem;
+`
 
+export const IvantyAMenuItem = styled.a`
+  margin-top: 1.7rem;
+`
 export const MenuItem = styled.p`
   color: #FFF;
   text-align: center;
@@ -73,5 +88,14 @@ export const MenuItem = styled.p`
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin: auto;
+`
+
+export const IvantyItem = styled.p`
+  color: #FFF;
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 `
