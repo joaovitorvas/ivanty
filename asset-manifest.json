@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.97d0fd12.css",
-    "main.js": "/static/js/main.d95de3cf.js",
+    "main.js": "/static/js/main.c4278bef.js",
     "static/media/banner.png": "/static/media/banner.fd04cd8403e7730d4e03.png",
     "static/media/artist.jpg": "/static/media/artist.8fed7397aebed591ac41.jpg",
     "static/media/campoDeTrigo.jpg": "/static/media/campoDeTrigo.b5eb8ab374cfe8a80ab5.jpg",
@@ -23,10 +23,10 @@
     "static/media/heart.svg": "/static/media/heart.a6e768acaa900f5fd5b196d688ed8ea1.svg",
     "static/media/logo-facebook.svg": "/static/media/logo-facebook.bca70e133a9e787acbfd39838985da02.svg",
     "main.97d0fd12.css.map": "/static/css/main.97d0fd12.css.map",
-    "main.d95de3cf.js.map": "/static/js/main.d95de3cf.js.map"
+    "main.c4278bef.js.map": "/static/js/main.c4278bef.js.map"
   },
   "entrypoints": [
     "static/css/main.97d0fd12.css",
-    "static/js/main.d95de3cf.js"
+    "static/js/main.c4278bef.js"
   ]
 }
