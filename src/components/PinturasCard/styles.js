@@ -57,8 +57,8 @@ export const PinturaDetails = styled.div`
 
 export const GridContainer2 = styled.div`
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 85%;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
     margin: 2rem auto;
 `
 
@@ -68,6 +68,11 @@ export const BuyButton = styled.div`
     padding: 1.25rem;
 
     cursor: pointer;
+    margin-right: 1rem;
+
+    @media screen and (min-width: 1000px) {
+        padding: 0.75rem;
+    }
 `
 
 export const BuyButtonText = styled.p`
@@ -84,13 +89,6 @@ export const HeartIcon = styled.img`
     max-width: 2.8rem;
     height: auto;
     text-align: center;
-
-    margin-left: 2%;
-
-    @media screen and (min-width: 400px) {
-        margin-left: 12%;
-    }
-    
 
     cursor: pointer;
 `
