@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ObrasEmDestaqueContainer = styled.div`
     width: 100%;
-    padding: 1rem 0;
+    padding: 1rem 1rem;
     margin-top: 2rem;
     background: #7B87C2;
 
@@ -22,7 +22,7 @@ export const GridContainer = styled.div`
 
     @media screen and (min-width: 1000px) {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 `
 

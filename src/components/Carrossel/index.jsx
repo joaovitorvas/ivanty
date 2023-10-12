@@ -8,6 +8,12 @@ import image3 from './../../assets/images/artist.jpg'
 import image4 from './../../assets/images/artist.jpg'
 import image5 from './../../assets/images/artist.jpg'
 import image6 from './../../assets/images/artist.jpg'
+import image7 from './../../assets/images/artist.jpg'
+import image8 from './../../assets/images/artist.jpg'
+import image9 from './../../assets/images/artist.jpg'
+import image10 from './../../assets/images/artist.jpg'
+import image11 from './../../assets/images/artist.jpg'
+import image12 from './../../assets/images/artist.jpg'
 
 import { Artist, ArtistName, ArtistPicture } from '../ArtistsContainer/styles';
 
@@ -21,7 +27,7 @@ function Carousel() {
   }, []);
   
 
-  const images = [image1, image2, image3, image4, image5, image6] // Importe as imagens conforme necessário
+  const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12] // Importe as imagens conforme necessário
   
   return (
     <div className="App">

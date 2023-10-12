@@ -5,7 +5,8 @@ import Autocomplete from '@mui/material/Autocomplete';
 
 export const SearchButton = () => {
   return (
-<Stack spacing={1} sx={{ marginTop: 3, marginLeft: 1, color: '#7B87C2', borderRadius: 6, background: '#353535', height: 30, textAlign: 'center', fontFamily: 'roboto', justifyContent: 'center'}}>
+    
+<Stack spacing={1} sx={{ marginTop: 3, marginLeft: 1, color: '#7B87C2', borderRadius: 6, background: '#353535', height: 35, textAlign: 'center', fontFamily: 'roboto', justifyContent: 'center'}}>
     <Autocomplete
         id="free-solo-demo"
         freeSolo

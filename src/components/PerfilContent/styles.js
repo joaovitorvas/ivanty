@@ -7,6 +7,10 @@ export const PhotoContainer = styled.div`
 export const PerfilImage = styled.img`
     width: 100%;
     height: auto;
+
+    @media screen and (min-width: 600px) {
+        height: 20rem;
+    }
 `
 
 export const PerfilPhoto = styled.img`
@@ -31,7 +35,7 @@ export const PerfilDescription = styled.div`
     margin-bottom: 1rem;
 
     @media screen and (min-width: 600px) {
-        padding: 2rem 5rem;
+        padding: 2rem 10rem;
     }
 `
 
@@ -83,12 +87,13 @@ export const GridContainer = styled.div`
 
 export const PaintingsList = styled.div`
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
 
     @media screen and (min-width: 600px) {
-        padding: 0 5rem;
+        padding: 0 10rem;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 `
 

@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="top">
           <div className="logoo">
             <img className="logotipo" src={logo} alt="Logo" />
-            <p>VANTA</p>
+            <p>Ivanty</p>
           </div>
           <div className="media-icons">
             <a href="#">

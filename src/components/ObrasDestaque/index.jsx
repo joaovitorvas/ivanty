@@ -18,6 +18,7 @@ export const ObrasDestaque = () => {
                     <PinturasCard title={title} author={author} img={obra} price={price}/>
                     <PinturasCard title={title} author={author} img={obra} price={price}/>
                     <PinturasCard title={title} author={author} img={obra} price={price}/>
+                    <PinturasCard title={title} author={author} img={obra} price={price}/>
                 </GridContainer>
             </ObrasEmDestaqueContainer>
         </>

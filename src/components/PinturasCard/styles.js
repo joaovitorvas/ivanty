@@ -57,7 +57,7 @@ export const PinturaDetails = styled.div`
 
 export const GridContainer2 = styled.div`
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 85%;
     margin: 2rem auto;
 `
@@ -65,9 +65,14 @@ export const GridContainer2 = styled.div`
 export const BuyButton = styled.div`
     border-radius: 1.25rem;
     background: #7B87C2;
-    padding: 1.25rem;
+    padding: 1rem;
 
     cursor: pointer;
+    margin-right: 1rem;
+
+    @media screen and (min-width: 1000px) {
+        padding: 0.75rem;
+    }
 `
 
 export const BuyButtonText = styled.p`
@@ -78,21 +83,20 @@ export const BuyButtonText = styled.p`
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin: auto 0;
+
+    @media screen and (min-width: 1000px) {
+        font-size: 1rem;
+    }
 `
 
 export const HeartIcon = styled.img`
-    max-width: 2.8rem;
+    max-width: 4rem;
     height: auto;
     text-align: center;
-
-    margin-left: 2%;
-
-    @media screen and (min-width: 400px) {
-        margin-left: 12%;
-    }
-    
-
     cursor: pointer;
+
+    margin: auto;
 `
 
 export const Icons = styled.div`

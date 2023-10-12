@@ -3,6 +3,11 @@ import { ContainerNameBio, GridContainer, PaintingThumbnail, PaintingsList, Perf
 import perfilImage from './../../assets/images/perfilImage.jpg'
 import perfilPhoto from './../../assets/images/artist.jpg'
 import oGrito from './../../assets/images/oGrito.jpg'
+import { PinturasCard } from '../PinturasCard';
+import obra from './../../assets/images/campoDeTrigo.jpg'
+let title = 'Campo de trigo'
+let author = 'Vincent Van Gogh'
+let price = '799,99'
 
 export const PerfilContent = () => {
     return (
@@ -28,13 +33,28 @@ export const PerfilContent = () => {
                 </PerfilBio>
             </PerfilDescription>  
             <PaintingsList>
+                <PinturasCard title={title} author={author} img={obra} price={price}/>
+                <PinturasCard title={title} author={author} img={obra} price={price}/>
+                <PinturasCard title={title} author={author} img={obra} price={price}/>
+                <PinturasCard title={title} author={author} img={obra} price={price}/>
+                <PinturasCard title={title} author={author} img={obra} price={price}/>
+                <PinturasCard title={title} author={author} img={obra} price={price}/>
+                <PinturasCard title={title} author={author} img={obra} price={price}/>
+                <PinturasCard title={title} author={author} img={obra} price={price}/>
+                <PinturasCard title={title} author={author} img={obra} price={price}/>
+                <PinturasCard title={title} author={author} img={obra} price={price}/>
+                <PinturasCard title={title} author={author} img={obra} price={price}/>
+                <PinturasCard title={title} author={author} img={obra} price={price}/>
+                <PinturasCard title={title} author={author} img={obra} price={price}/>
+                <PinturasCard title={title} author={author} img={obra} price={price}/>
+                <PinturasCard title={title} author={author} img={obra} price={price}/>
+                {/* <PaintingThumbnail src={oGrito}/>
                 <PaintingThumbnail src={oGrito}/>
                 <PaintingThumbnail src={oGrito}/>
                 <PaintingThumbnail src={oGrito}/>
                 <PaintingThumbnail src={oGrito}/>
                 <PaintingThumbnail src={oGrito}/>
-                <PaintingThumbnail src={oGrito}/>
-                <PaintingThumbnail src={oGrito}/>
+                <PaintingThumbnail src={oGrito}/> */}
             </PaintingsList>    
         </>
     );

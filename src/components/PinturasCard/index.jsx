@@ -37,10 +37,10 @@ const [isHeartFilled, setIsHeartFilled] = useState(false);
                         COMPRAR
                     </BuyButtonText>
                 </BuyButton>
-                <Icons>
-                    <HeartIcon src={isHeartFilled ? heartP : heart} onClick={handleHeartClick}/>
-                    <HeartIcon src={card}/>
-                </Icons>
+                {/* <Icons> */}
+                <HeartIcon src={isHeartFilled ? heartP : heart} onClick={handleHeartClick}/>
+                <HeartIcon src={card}/>
+                {/* </Icons> */}
             </GridContainer2>
         </PinturaContainer>
     </>

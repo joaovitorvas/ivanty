@@ -12,8 +12,8 @@ export const Menu = () => {
                 <ul class="menu__box">
                 <li><a class="menu__item" href="/">Home</a></li>
                 <li><a class="menu__item" href="/perfil">Perfil</a></li>
-                <li><a class="menu__item" href="/login">Categorias</a></li>
-                <li><a class="menu__item" href="/login">Suporte</a></li>
+                <li><a class="menu__item" href="/categories">Categorias</a></li>
+                <li><a class="menu__item" href="/about">Sobre</a></li>
                 <li><a class="menu__item" href="/login">Cadastrar-se</a></li>
                 </ul>
             </div>
