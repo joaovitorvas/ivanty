@@ -91,9 +91,15 @@ export const PaintingsList = styled.div`
     padding: 0 1rem;
 
     @media screen and (min-width: 600px) {
+        padding: 0 5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (min-width: 1000px) {
         padding: 0 10rem;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 `
 

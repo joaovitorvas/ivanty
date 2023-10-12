@@ -92,9 +92,3 @@ export const HeartIcon = styled.img`
 
     cursor: pointer;
 `
-
-export const Icons = styled.div`
-    width: 100%;
-    
-    justify-content: center;
-`

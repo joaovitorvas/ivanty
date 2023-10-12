@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ImgContainer = styled.div`
-  margin-top: 2rem;
+  margin-bottom: 1rem;
   width: 100%;
   height: 20.6875rem;
   flex-shrink: 0;
@@ -20,6 +20,7 @@ export const ImgContainer = styled.div`
 
   @media screen and (min-width: 800px) {
     height: 30rem;
+    border-radius: 2rem;
   }
 `;
 
@@ -39,7 +40,5 @@ export const CategoriesTitle = styled.p`
 `;
 
 export const Container = styled.div`
-  @media screen and (min-width: 800px) {
-    margin: 1rem; 
-  }
+
 `
