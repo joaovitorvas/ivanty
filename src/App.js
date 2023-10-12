@@ -2,6 +2,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
+  BrowserRouter,
 } from "react-router-dom";
 
 import { GlobalStyle } from './../src/globals/globalstyle';
@@ -20,6 +21,7 @@ import Register from "./pages/register";
 
 function App() {
   return (
+    <BrowserRouter basename={process.env.PUBLIC_URL}>  
     <Router>
     <GlobalStyle />
         <Routes>
@@ -39,6 +41,7 @@ function App() {
         {/* <Route path="/oGrito" element={<PinturaOGrito />} /> */}
         </Routes>
     </Router>
+    </BrowserRouter>
   );
 }
 

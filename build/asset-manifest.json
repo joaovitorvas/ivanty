@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ivanty/static/css/main.97d0fd12.css",
-    "main.js": "/Ivanty/static/js/main.f6955726.js",
+    "main.js": "/Ivanty/static/js/main.972fee23.js",
     "static/media/banner.png": "/Ivanty/static/media/banner.fd04cd8403e7730d4e03.png",
     "static/media/artist.jpg": "/Ivanty/static/media/artist.8fed7397aebed591ac41.jpg",
     "static/media/campoDeTrigo.jpg": "/Ivanty/static/media/campoDeTrigo.b5eb8ab374cfe8a80ab5.jpg",
@@ -23,10 +23,10 @@
     "static/media/heart.svg": "/Ivanty/static/media/heart.a6e768acaa900f5fd5b196d688ed8ea1.svg",
     "static/media/logo-facebook.svg": "/Ivanty/static/media/logo-facebook.bca70e133a9e787acbfd39838985da02.svg",
     "main.97d0fd12.css.map": "/Ivanty/static/css/main.97d0fd12.css.map",
-    "main.f6955726.js.map": "/Ivanty/static/js/main.f6955726.js.map"
+    "main.972fee23.js.map": "/Ivanty/static/js/main.972fee23.js.map"
   },
   "entrypoints": [
     "static/css/main.97d0fd12.css",
-    "static/js/main.f6955726.js"
+    "static/js/main.972fee23.js"
   ]
 }
