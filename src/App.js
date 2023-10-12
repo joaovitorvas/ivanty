@@ -21,7 +21,7 @@ import Register from "./pages/register";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>  
+    <BrowserRouter basename={'/ivanty'}>  
     <GlobalStyle />
         <Routes>
         <Route path="/" element={<Home />} />
