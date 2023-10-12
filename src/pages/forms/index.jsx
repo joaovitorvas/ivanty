@@ -41,8 +41,8 @@ const Login = () => {
     <Container>
       <LoginContainer>
         <Column>
-          <IvantyWoman/>
           <Title>Login</Title>
+          <IvantyWoman/>
           <Spacing />
           <Input
             name="email"

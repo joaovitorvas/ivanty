@@ -31,6 +31,8 @@ export const Title = styled.h1`
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
+    margin: 1rem auto;
 `
 
 export const Row = styled.div`

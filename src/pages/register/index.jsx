@@ -16,7 +16,8 @@ const schema = yup
       .required("Campo obrigatório"),
     username: yup.string().required("Campo obrigatório"),
     fullname: yup.string().required("Campo obrigatório"),
-    birthdate: yup.date().required("Campo obrigatório").max(new Date(), "Você deve ser maior de idade"),
+    birthdate: yup.date().required("Campo obrigatório").max(new Date(new Date().setFullYear(new Date().getFullYear() - 16)), "Você deve ter pelo menos 16 anos de idade"),
+    cpf: yup.string().required("Campo obrigatório"), // Adicione a validação do CPF conforme necessário
   })
   .required();
 
@@ -43,8 +44,8 @@ const Register = () => {
     <Container>
       <LoginContainer>
         <Column>
-          <IvantyWoman/>
           <Title>Cadastro</Title>
+          <IvantyWoman/>
           <Spacing />
           <Input
             name="fullname"
@@ -66,6 +67,13 @@ const Register = () => {
             placeholder="Data de nascimento"
             control={control}
             errorMessage={errors?.birthdate?.message}
+          />
+          <Spacing />
+          <Input
+            name="cpf"
+            placeholder="CPF"
+            control={control}
+            errorMessage={errors?.cpf?.message}
           />
           <Spacing />
           <Input

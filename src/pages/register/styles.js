@@ -11,7 +11,6 @@ export const Container = styled.div`
 `
 
 export const LoginContainer = styled.div`
-    width: 100%;
     max-width: 600px;
     background-color: #FFFFFF;
 
@@ -31,6 +30,7 @@ export const Title = styled.h1`
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin: 1rem auto;
 `
 
 export const Row = styled.div`
