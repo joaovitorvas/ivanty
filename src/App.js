@@ -18,10 +18,11 @@ import { CategoriesScreen } from "./pages/categories";
 import { Obras } from "./pages/obras";
 import { Artists } from "./pages/artists";
 import Register from "./pages/register";
+import { BuyItem } from "./pages/buyItem";
 
 function App() {
   return (
-    <BrowserRouter basename={'/ivanty'}>  
+    <BrowserRouter basename={process.env.PUBLIC_URL}>  
     <GlobalStyle />
         <Routes>
         <Route path="/" element={<Home />} />
@@ -37,6 +38,7 @@ function App() {
         <Route path="/obras" element={<Obras />} />
         <Route path="/artists" element={<Artists />} /> 
         <Route path="/register" element={<Register />} /> 
+        <Route path="/buyItem" element={<BuyItem />} /> 
         {/* <Route path="/oGrito" element={<PinturaOGrito />} /> */}
         </Routes>
     </BrowserRouter>

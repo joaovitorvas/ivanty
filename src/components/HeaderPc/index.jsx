@@ -14,19 +14,19 @@ export const HeaderPC = () => {
             <Logo src={logo}/>
           </a>
           <MenuPC>
-            <AMenuItem href={'./categories'}>
+            <AMenuItem href={'/categories'}>
               <MenuItem>Categorias</MenuItem>
             </AMenuItem>
-            <AMenuItem href={'./perfil'}>
+            <AMenuItem href={'/perfil'}>
               <MenuItem>Perfil</MenuItem>
             </AMenuItem>
-            <AMenuItem href={'./obras'}>
+            <AMenuItem href={'/obras'}>
               <MenuItem>Obras</MenuItem>
             </AMenuItem>
-            <AMenuItem href={'./artists'}>
+            <AMenuItem href={'/artists'}>
               <MenuItem>Artistas</MenuItem>
             </AMenuItem>
-            <AMenuItem href={'./about'}>
+            <AMenuItem href={'/about'}>
               <MenuItem>Sobre</MenuItem>
             </AMenuItem>
           </MenuPC>

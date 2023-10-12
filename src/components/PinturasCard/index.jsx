@@ -2,9 +2,10 @@ import { BuyButton, BuyButtonText, GridContainer, GridContainer2, HeartIcon, Pin
 import heart from './../../assets/images/heart.svg'
 import card from './../../assets/images/card.svg'
 import heartP from './../../assets/images/heartPrenchido.svg'
-
+import { Link } from "react-router-dom";
 
 import React, { useState } from 'react';
+
 
 export const PinturasCard = (props) => {
 
@@ -13,6 +14,7 @@ const [isHeartFilled, setIsHeartFilled] = useState(false);
   const handleHeartClick = () => {
     setIsHeartFilled(!isHeartFilled);
   };
+
 
   return (
     <>
@@ -33,9 +35,12 @@ const [isHeartFilled, setIsHeartFilled] = useState(false);
             </GridContainer>
             <GridContainer2>
                 <BuyButton>
-                    <BuyButtonText>
-                        COMPRAR
-                    </BuyButtonText>
+                    <Link to={`/buyItem`}>
+                        <BuyButtonText>
+                            COMPRAR
+                        </BuyButtonText>
+                    </Link>
+                    
                 </BuyButton>
                 <HeartIcon src={isHeartFilled ? heartP : heart} onClick={handleHeartClick}/>
                 <HeartIcon src={card}/>
