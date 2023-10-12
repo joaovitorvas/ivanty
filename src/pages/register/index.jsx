@@ -16,10 +16,13 @@ const schema = yup
       .string()
       .min(8, "No minimo 8 caracteres")
       .required("Campo obrigatório"),
+    username: yup.string().required("Campo obrigatório"),
+    fullname: yup.string().required("Campo obrigatório"),
+    birthdate: yup.date().required("Campo obrigatório").max(new Date(), "Você deve ser maior de idade"),
   })
   .required();
 
-const Login = () => {
+const Register = () => {
   const {
     control,
     formState: { errors, isValid },
@@ -31,7 +34,7 @@ const Login = () => {
 
   const navigate = useNavigate();
 
-  const handleLogin = () => {
+  const handleRegister = () => {
     if (isValid) {
       console.log('OK');
       navigate('/');
@@ -43,7 +46,29 @@ const Login = () => {
       <LoginContainer>
         <Column>
           <IvantyWoman/>
-          <Title>Login</Title>
+          <Title>Cadastro</Title>
+          <Spacing />
+          <Input
+            name="fullname"
+            placeholder="Nome completo"
+            control={control}
+            errorMessage={errors?.fullname?.message}
+          />
+          <Spacing />
+          <Input
+            name="username"
+            placeholder="Nome de usuário"
+            control={control}
+            errorMessage={errors?.username?.message}
+          />
+          <Spacing />
+          <Input
+            name="birthdate"
+            type="date"
+            placeholder="Data de nascimento"
+            control={control}
+            errorMessage={errors?.birthdate?.message}
+          />
           <Spacing />
           <Input
             name="email"
@@ -60,11 +85,11 @@ const Login = () => {
             errorMessage={errors?.password?.message}
           />
           <Spacing />
-          <Button title="Entrar" disabled={!isValid} onClick={handleLogin}/>
+          <Button title="Cadastrar" disabled={!isValid} onClick={handleRegister}/>
         </Column>
       </LoginContainer>
     </Container>
   );
 };
 
-export default Login;
+export default Register;

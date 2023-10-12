@@ -16,6 +16,7 @@ import { Fotografias } from "./pages/fotografias";
 import { CategoriesScreen } from "./pages/categories";
 import { Obras } from "./pages/obras";
 import { Artists } from "./pages/artists";
+import Register from "./pages/register";
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/categories" element={<CategoriesScreen />} />
         <Route path="/obras" element={<Obras />} />
-        <Route path="/artists" element={<Artists />} />
+        <Route path="/artists" element={<Artists />} /> 
+        <Route path="/register" element={<Register />} /> 
         {/* <Route path="/oGrito" element={<PinturaOGrito />} /> */}
         </Routes>
     </Router>

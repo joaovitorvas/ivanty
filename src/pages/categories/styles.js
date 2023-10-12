@@ -2,7 +2,12 @@ import styled from "styled-components";
 
 export const DescriptionContainer = styled.div`
     background: #7B87C2;
-    padding: 2rem 10rem;
+
+    padding: 2rem;
+
+    @media screen and (min-width: 600px) {
+        // padding: 2rem 10rem;
+    }
 `
 
 export const DescriptTitle = styled.p`
@@ -13,6 +18,7 @@ export const DescriptTitle = styled.p`
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
 
     @media screen and (min-width: 600px) {
         margin-top: 1rem;
@@ -29,6 +35,7 @@ export const DescriptText = styled.p`
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-top: 1rem;
 
     @media screen and (min-width: 600px) {
         font-size: 1.3rem;
@@ -36,5 +43,21 @@ export const DescriptText = styled.p`
 `
 
 export const CategoriesContent = styled.main`
-    padding: 0 10rem;
+
+    padding: 0;
+
+    @media screen and (min-width: 600px) {
+        padding: 0 10rem;
+    }
+`
+
+export const PinturasLIst = styled.div`
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    @media screen and (min-width: 1500px) {
+        grid-template-columns: 1fr 1fr 1fr;    
+    }
+    
 `

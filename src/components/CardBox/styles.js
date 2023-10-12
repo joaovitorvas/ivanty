@@ -13,6 +13,11 @@ export const CardBox = styled.div`
     background: #000;
     display: grid;
     grid-template-columns: 1fr 1fr;
+
+    
+    @media screen and (min-width: 600px) {
+        margin: 2rem 10rem;
+    }
 `
 
 export const CardPainting = styled.img`

@@ -3,13 +3,16 @@ import { CardBox } from '../../components/CardBox';
 import cardPainting from './../../assets/images/oGrito.jpg'
 import { HeaderPC } from '../../components/HeaderPc';
 import Footer from '../../components/Footer';
+import { Container } from './styles';
 
 const Card = (props) => {
   return (
     <div className="Pinturas">
       <Header/>
       <HeaderPC/>
-      <CardBox painting={cardPainting} title={'O grito'} author={'Edward Munch'} price={'799.99'}/>
+        <Container>
+          
+        </Container>
       <Footer/>
     </div>
   );
