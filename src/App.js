@@ -13,7 +13,7 @@ import { Perfil } from "./pages/perfil";
 import { About } from "./pages/about";
 import Login from "./pages/forms";
 import { Fotografias } from "./pages/fotografias";
-import { Categories, CategoriesScreen } from "./pages/categories";
+import { Categories } from "./pages/categories";
 import { Obras } from "./pages/obras";
 import { Artists } from "./pages/artists";
 
@@ -31,7 +31,7 @@ function App() {
         <Route path="/pinturas" element={<Pinturas />} />
         <Route path="/login" element={<Login />} />
         <Route path="/about" element={<About />} />
-        <Route path="/categories" element={<CategoriesScreen />} />
+        <Route path="/categories" element={<Categories />} />
         <Route path="/obras" element={<Obras />} />
         <Route path="/artists" element={<Artists />} />
         {/* <Route path="/oGrito" element={<PinturaOGrito />} /> */}
