@@ -2,14 +2,9 @@ import { Header } from '../../components/Header'
 import { Banner } from '../../components/Banner'
 import pintura from './../../assets/images/oBeijo.jpg'
 import { PinturasDescription, PinturasDescriptionSloganText, PinturasDescriptionSloganTitle } from './styles';
-import { PinturasCard } from '../../components/PinturasCard';
-import obra from './../../assets/images/campoDeTrigo.jpg'
 import { ObrasDestaque } from '../../components/ObrasDestaque';
 import { HeaderPC } from '../../components/HeaderPc';
 import Footer from '../../components/Footer';
-let title = 'Campo de trigo'
-let author = 'Vincent Van Gogh'
-let price = '799,99'
 
 const Fotografias = () => {
   return (

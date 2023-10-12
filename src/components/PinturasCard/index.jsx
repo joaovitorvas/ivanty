@@ -1,4 +1,4 @@
-import { BuyButton, BuyButtonText, GridContainer, GridContainer2, HeartIcon, Icons, PinturaAuthor, PinturaContainer, PinturaDetails, PinturaImg, PinturaPrice, PinturaTitle } from "./styles";
+import { BuyButton, BuyButtonText, GridContainer, GridContainer2, HeartIcon, PinturaAuthor, PinturaContainer, PinturaDetails, PinturaImg, PinturaPrice, PinturaTitle } from "./styles";
 import heart from './../../assets/images/heart.svg'
 import card from './../../assets/images/card.svg'
 import heartP from './../../assets/images/heartPrenchido.svg'

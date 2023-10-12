@@ -4,9 +4,7 @@ import Input from "../../components/Input";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { useNavigate } from "react-router-dom";
-
 import { Container, LoginContainer, Column, Spacing, Title } from "./styles";
-import { LogoBox } from "../../components/LogoContainer";
 import { IvantyWoman } from "../../components/IvantyWoman";
 
 const schema = yup

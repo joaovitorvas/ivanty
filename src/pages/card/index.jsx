@@ -1,6 +1,4 @@
 import { Header } from '../../components/Header'
-import { CardBox } from '../../components/CardBox';
-import cardPainting from './../../assets/images/oGrito.jpg'
 import { HeaderPC } from '../../components/HeaderPc';
 import Footer from '../../components/Footer';
 import { Container } from './styles';
