@@ -3,7 +3,6 @@ import {
   Routes,
   Route,
   BrowserRouter,
-  HashRouter,
 } from "react-router-dom";
 
 import { GlobalStyle } from './../src/globals/globalstyle';
@@ -22,8 +21,7 @@ import Register from "./pages/register";
 
 function App() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>  
-    <Router>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>  
     <GlobalStyle />
         <Routes>
         <Route path="/" element={<Home />} />
@@ -41,8 +39,7 @@ function App() {
         <Route path="/register" element={<Register />} /> 
         {/* <Route path="/oGrito" element={<PinturaOGrito />} /> */}
         </Routes>
-    </Router>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
