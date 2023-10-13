@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const DescriptionContainer = styled.div`
     background: #122D42;
 
-    padding: 2rem;
+    padding: 1rem;
 
     @media screen and (min-width: 600px) {
         // padding: 2rem 10rem;
