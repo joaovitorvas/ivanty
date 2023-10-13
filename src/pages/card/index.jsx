@@ -1,16 +1,18 @@
 import { Header } from '../../components/Header'
 import { HeaderPC } from '../../components/HeaderPc';
 import Footer from '../../components/Footer';
-import { Container } from './styles';
+import { CardItem } from '../../components/CardItemContainer';
+import image from './../../assets/images/campoDeTrigo.jpg'
 
-const Card = (props) => {
+
+const Card = () => {
   return (
     <div className="Pinturas">
       <Header/>
       <HeaderPC/>
-        <Container>
-          
-        </Container>
+      <CardItem image={image} title={'Campo de Trigo'} author={'Edward Munch'} price={'799.99'}/>
+      <CardItem image={image} title={'Campo de Trigo'} author={'Edward Munch'} price={'799.99'}/>
+      <CardItem image={image} title={'Campo de Trigo'} author={'Edward Munch'} price={'799.99'}/>
       <Footer/>
     </div>
   );

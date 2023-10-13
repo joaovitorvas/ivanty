@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const DescriptionContainer = styled.div`
-    background: #7B87C2;
+    background: #122D42;
 
     padding: 2rem;
 
@@ -45,6 +45,7 @@ export const DescriptText = styled.p`
 export const CategoriesContent = styled.main`
 
     padding: 0;
+    margin-bottom: 2rem;
 
     @media screen and (min-width: 600px) {
         padding: 0 10rem;

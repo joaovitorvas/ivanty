@@ -3,18 +3,27 @@ import heart from './../../assets/images/heart.svg'
 import card from './../../assets/images/card.svg'
 import heartP from './../../assets/images/heartPrenchido.svg'
 import { Link } from "react-router-dom";
-
 import React, { useState } from 'react';
+import { IconsContainer } from "../CardItemContainer/styles";
 
 
 export const PinturasCard = (props) => {
 
-const [isHeartFilled, setIsHeartFilled] = useState(false);
+    const [isHeartFilled, setIsHeartFilled] = useState(false);
 
   const handleHeartClick = () => {
     setIsHeartFilled(!isHeartFilled);
   };
 
+  const [isVisible, setIsVisible] = useState(true);
+
+  const handleTrashClick = () => {
+    setIsVisible(false);
+  };
+
+  if (!isVisible) {
+    return null;
+  }
 
   return (
     <>
@@ -42,8 +51,11 @@ const [isHeartFilled, setIsHeartFilled] = useState(false);
                     </Link>
                     
                 </BuyButton>
-                <HeartIcon src={isHeartFilled ? heartP : heart} onClick={handleHeartClick}/>
-                <HeartIcon src={card}/>
+                <IconsContainer>
+                    <HeartIcon src={isHeartFilled ? heartP : heart} onClick={handleHeartClick}/>
+                    <HeartIcon src={card}/>
+                </IconsContainer>
+           
             </GridContainer2>
         </PinturaContainer>
     </>

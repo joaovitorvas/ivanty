@@ -39,7 +39,6 @@ function App() {
         <Route path="/artists" element={<Artists />} /> 
         <Route path="/register" element={<Register />} /> 
         <Route path="/buyItem" element={<BuyItem />} /> 
-        {/* <Route path="/oGrito" element={<PinturaOGrito />} /> */}
         </Routes>
     </BrowserRouter>
   );

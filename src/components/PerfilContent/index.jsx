@@ -48,13 +48,6 @@ export const PerfilContent = () => {
                 <PinturasCard title={title} author={author} img={obra} price={price}/>
                 <PinturasCard title={title} author={author} img={obra} price={price}/>
                 <PinturasCard title={title} author={author} img={obra} price={price}/>
-                {/* <PaintingThumbnail src={oGrito}/>
-                <PaintingThumbnail src={oGrito}/>
-                <PaintingThumbnail src={oGrito}/>
-                <PaintingThumbnail src={oGrito}/>
-                <PaintingThumbnail src={oGrito}/>
-                <PaintingThumbnail src={oGrito}/>
-                <PaintingThumbnail src={oGrito}/> */}
             </PaintingsList>    
         </>
     );

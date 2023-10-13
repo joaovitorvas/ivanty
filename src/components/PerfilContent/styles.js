@@ -31,7 +31,7 @@ export const PerfilPhoto = styled.img`
 
 export const PerfilDescription = styled.div`
     padding: 2rem;
-    background: #7B87C2;
+    background: #122D42;
     margin-bottom: 1rem;
 
     @media screen and (min-width: 600px) {
@@ -89,6 +89,8 @@ export const PaintingsList = styled.div`
     display: grid; 
     grid-template-columns: 1fr;
     padding: 0 1rem;
+    background: #122D42;
+    margin-bottom: 2rem;
 
     @media screen and (min-width: 600px) {
         padding: 0 5rem;

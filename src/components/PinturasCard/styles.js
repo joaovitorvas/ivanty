@@ -57,7 +57,7 @@ export const PinturaDetails = styled.div`
 
 export const GridContainer2 = styled.div`
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     width: 100%;
     margin: 2rem auto;
 `

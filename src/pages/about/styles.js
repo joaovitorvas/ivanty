@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.main`
     background: #122D42;
     padding: 1.5rem;
+    margin-bottom: 2rem;
 `
 
 export const Title = styled.h2`
