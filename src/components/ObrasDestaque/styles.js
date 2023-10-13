@@ -4,7 +4,7 @@ export const ObrasEmDestaqueContainer = styled.div`
     width: 100%;
     padding: 1rem 1rem;
     margin-top: 2rem;
-    background: #7B87C2;
+    background: #122D42;
 
     @media screen and (min-width: 1000px) {
         padding: 2rem 5rem;

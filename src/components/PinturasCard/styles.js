@@ -8,7 +8,7 @@ export const PinturaImg = styled.img`
 
 export const PinturaContainer = styled.div`
     padding: 1.5rem;
-    background: #3d3d3d;
+    background: #00082E;
     margin: 1rem;
     border-radius: 1rem;
 
