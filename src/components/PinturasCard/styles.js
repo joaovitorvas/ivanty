@@ -65,10 +65,19 @@ export const GridContainer2 = styled.div`
 export const BuyButton = styled.div`
     border-radius: 1.25rem;
     background: #7B87C2;
-    padding: 1.25rem;
+    padding: 1rem;
 
     cursor: pointer;
     margin-right: 1rem;
+
+    @media screen and (min-width: 400px) {
+        border-radius: 1.25rem;
+        background: #7B87C2;
+        padding: 1rem;
+    
+        cursor: pointer;
+        margin-right: 1rem;
+    }
 
     @media screen and (min-width: 1000px) {
         padding: 0.75rem;
@@ -76,19 +85,40 @@ export const BuyButton = styled.div`
 `
 
 export const BuyButtonText = styled.p`
+    
     color: #FFF;
     text-align: center;
     font-family: Roboto;
-    font-size: 1.25rem;
+    font-size: 0.75rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
+    @media screen and (min-width: 400px) {
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
 `
 
 export const HeartIcon = styled.img`
-    max-width: 2.8rem;
+    max-width: 2rem;
     height: auto;
     text-align: center;
 
     cursor: pointer;
+
+    @media screen and (min-width: 360px) {
+        max-width: 2.8rem;
+    height: auto;
+    text-align: center;
+
+    cursor: pointer;
+    }    
+
+
 `

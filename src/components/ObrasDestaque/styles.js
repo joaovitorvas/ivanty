@@ -15,7 +15,7 @@ export const GridContainer = styled.div`
     display: grid;
     grid-template-columns: 1fr;
 
-    @media screen and (min-width: 500px) {
+    @media screen and (min-width: 600px) {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
