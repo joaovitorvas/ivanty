@@ -11,10 +11,12 @@ const Footer = () => {
     <footer>
       <div className="rodape">
         <div className="top">
+            <a href={'./'}>
           <div className="logoo">
-            <img className="logotipo" src={logo} alt="Logo" />
+              <img className="logotipo" src={logo} alt="Logo" />
             <p>Ivanty</p>
           </div>
+            </a>
           <div className="media-icons">
             <a href="/#">
               <img
@@ -48,63 +50,36 @@ const Footer = () => {
         </div>
         <div className="link-boxes">
           <ul className="box">
-            <li className="link_name">Suporte</li>
+            <li className="link_name">Navegação</li>
             <li>
-              <a href="/#">Instruções</a>
+              <a href={'./categories'}>Categorias</a>
             </li>
             <li>
-              <a href="/#">Tutorial</a>
+              <a href={'./profile'}>Perfil</a>
             </li>
             <li>
-              <a href="/#">Ajuda</a>
-            </li>
-            <li>
-              <a href="/#">Colaboradores</a>
+              <a href={'./artists'}>Artistas</a>
             </li>
           </ul>
           <ul className="box">
-            <li className="link_name">Administradores</li>
+            <li className="link_name">Sobré nos</li>
             <li>
-              <a href="/#">Quem somos</a>
-            </li>
-            <li>
-              <a href="/#">Sobre Vanta</a>
-            </li>
-            <li>
-              <a href="/#">Como começou</a>
-            </li>
-            <li>
-              <a href="/#">Porque arte</a>
+              <a href={'./about'}>Quem somos</a>
             </li>
           </ul>
           <ul className="box">
             <li className="link_name">Conta</li>
             <li>
-              <a href="/#">Obras</a>
-            </li>
-            <li>
-              <a href="/#">Necessidade</a>
-            </li>
-            <li>
-              <a href="/#">Aprimoramento</a>
-            </li>
-            <li>
-              <a href="/#">História</a>
+              <a href={'./profile'}>Gerenciar perfil</a>
             </li>
           </ul> 
           <ul className="box">
-            <li className="link_name">Recursos</li>
+            <li className="link_name">Contato</li>
             <li>
-              <a href="/#">Perfil</a>
+              <a href="/#">email@email.com</a>
             </li>
             <li>
-              <a href="/#">Preferência</a>
-            </li>
-            <li>
-              <a href="/#">Escolha</a>
-            </li>
-            <li>
-              <a href="/#">Armazenar</a>
+              <a href="/#">11 00000000</a>
             </li>
           </ul>
           <ul className="box input-box">

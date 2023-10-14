@@ -1,4 +1,4 @@
-import { HeaderContainers, LogoNameContainer, LogoNameText, Logo, MenuPC, MenuItem, AMenuItem, IvantyItem, IvantyAMenuItem } from "./styles";
+import { HeaderContainers, Logo, MenuPC, MenuItem, AMenuItem } from "./styles";
 import { FirstHeaderContainer } from "./styles";
 import { SearchButton } from './../SearchButtonPC'
 import { Card } from './../Card'
@@ -20,7 +20,7 @@ export const HeaderPC = () => {
             <AMenuItem href={'/categories'}>
               <MenuItem>Categorias</MenuItem>
             </AMenuItem>
-            <AMenuItem href={'/perfil'}>
+            <AMenuItem href={'/profile'}>
               <MenuItem>Perfil</MenuItem>
             </AMenuItem>
             <AMenuItem href={'/artists'}>

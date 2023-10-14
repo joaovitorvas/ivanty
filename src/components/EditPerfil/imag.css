@@ -1,0 +1,31 @@
+
+/* Estilos para dispositivos móveis (tela menor que 768px) */
+.image-grid {
+  display: block; /* Uma coluna em dispositivos móveis */
+  margin: 0 10px; /* Adicione margem esquerda e direita de 10px */
+}
+
+/* Reduza o tamanho da imagem apenas em dispositivos móveis */
+.image-item {
+  margin: 5px 0; /* Espaçamento vertical entre imagens */
+  transform: scale(0.9); /* Escala de 90% para diminuir a imagem */
+}
+
+/* Afaste a primeira imagem do botão de adicionar */
+.image-item:first-child {
+  margin-right: 10px; /* Adicione margem à direita para a primeira imagem */
+}
+
+/* Estilos para dispositivos maiores (tela igual ou maior que 768px) */
+@media (min-width: 768px) {
+  .image-grid {
+    display: flex; /* Três imagens e botões por linha em dispositivos maiores */
+    flex-wrap: wrap;
+  }
+
+  .image-item {
+    flex: 0 0 calc(33.33% - 10px); /* 3 imagens por linha com algum espaçamento */
+    margin: 4px;
+    transform: none; /* Redefina a escala para não aplicar a redução de tamanho */
+  }
+}

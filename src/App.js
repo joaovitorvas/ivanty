@@ -1,5 +1,4 @@
 import {
-  BrowserRouter as Router,
   Routes,
   Route,
   BrowserRouter,
@@ -19,6 +18,7 @@ import { Obras } from "./pages/obras";
 import { Artists } from "./pages/artists";
 import Register from "./pages/register";
 import { BuyItem } from "./pages/buyItem";
+import { EditPerfilPage } from "./pages/editPerfil";
 
 function App() {
   return (
@@ -29,7 +29,6 @@ function App() {
         <Route path="/pinturas" element={<Pinturas />} />
         <Route path="/card" element={<Card />} />
         <Route path="/perfil" element={<Perfil />} />
-        <Route path="/perfil" element={<Perfil />} />
         <Route path="/fotografias" element={<Fotografias />} />
         <Route path="/pinturas" element={<Pinturas />} />
         <Route path="/login" element={<Login />} />
@@ -39,6 +38,7 @@ function App() {
         <Route path="/artists" element={<Artists />} /> 
         <Route path="/register" element={<Register />} /> 
         <Route path="/buyItem" element={<BuyItem />} /> 
+        <Route path="/profile" element={<EditPerfilPage />} /> 
         </Routes>
     </BrowserRouter>
   );
