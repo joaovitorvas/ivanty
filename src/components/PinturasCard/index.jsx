@@ -2,7 +2,6 @@ import { BuyButton, BuyButtonText, GridContainer, GridContainer2, HeartIcon, Pin
 import heart from './../../assets/images/heart.svg'
 import card from './../../assets/images/card.svg'
 import heartP from './../../assets/images/heartPrenchido.svg'
-import { Link } from "react-router-dom";
 import React, { useState } from 'react';
 import { IconsContainer } from "../CardItemContainer/styles";
 
@@ -15,11 +14,8 @@ export const PinturasCard = (props) => {
     setIsHeartFilled(!isHeartFilled);
   };
 
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible] = useState(true);
 
-  const handleTrashClick = () => {
-    setIsVisible(false);
-  };
 
   if (!isVisible) {
     return null;
@@ -44,12 +40,11 @@ export const PinturasCard = (props) => {
             </GridContainer>
             <GridContainer2>
                 <BuyButton>
-                    <Link to={`/buyItem`}>
+                    <a href={'./buyItem'}>
                         <BuyButtonText>
                             COMPRAR
                         </BuyButtonText>
-                    </Link>
-                    
+                    </a>
                 </BuyButton>
                 <IconsContainer>
                     <HeartIcon src={isHeartFilled ? heartP : heart} onClick={handleHeartClick}/>

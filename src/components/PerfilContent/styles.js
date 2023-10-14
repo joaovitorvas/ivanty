@@ -99,7 +99,7 @@ export const PaintingsList = styled.div`
     }
 
     @media screen and (min-width: 1000px) {
-        padding: 0 10rem;
+        padding: 0 8rem;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }

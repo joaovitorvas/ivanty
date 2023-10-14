@@ -4,10 +4,6 @@ export const Container = styled.main`
     margin: 1.5rem;
     padding: 1.5rem;    
     background: #122D42;
-
-    @media screen and (min-width: 600px) {
-        margin: 2rem 10rem;
-    }
 `
 
 export const CardImage = styled.img`

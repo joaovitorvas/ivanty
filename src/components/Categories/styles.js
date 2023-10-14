@@ -39,6 +39,7 @@ export const CategoriesTitle = styled.p`
   opacity: 1;
 `;
 
+
 export const Container = styled.div`
 
 `

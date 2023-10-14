@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.main`
-    padding: 1rem;
-    margin: 1rem;
-    background: #3d3d3d;
+    padding: 1.5rem;
+    margin: 0 1rem;
+    background: #122D42;
+    margin-top: 1rem;
 `
 
 export const ProductImage = styled.img`
@@ -48,4 +49,72 @@ export const ProductPrice = styled.p`
 export const GridContainer = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
+`
+
+export const Button = styled.div`
+    cursor: pointer;
+    border-radius: 2rem;
+    background: #2B47D0;
+    padding: 1rem;
+    margin: 2rem auto;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+`
+
+export const Button2 = styled.div`
+    cursor: pointer;
+    border-radius: 2rem;
+    background: #fff;
+    padding: 1rem;
+    margin: 2rem auto;
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+`
+
+export const DescriptionContainer = styled.div`
+    margin: 0 1rem;
+    padding: 1.5rem;
+`
+
+export const DescriptionTitle = styled.h2`
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+`
+
+export const DescriptionText = styled.p`
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-bottom: 2rem;
+`
+
+export const GridContainerBuy = styled.div`
+    display: grid;
+    grid-template-columns: 1fr;
+
+    @media screen and (min-width: 1000px) {
+        grid-template-columns: 1fr 1fr;
+    }
 `
