@@ -25,11 +25,27 @@ export const GlobalStyle = createGlobalStyle`
           display: none;
       }
 
-    @media (min-width: 720px) {
+    @media (min-width: 1000px) {
         .headerTelasMenores {
           display: none;
         }
         .headerTelasMaiores {
+            display: block;
+        }
+      }
+
+    .BuyItem {
+        display: block;
+      }
+      .BuyItemPC {
+          display: none;
+      }
+
+    @media (min-width: 1000px) {
+        .BuyItem {
+          display: none;
+        }
+        .BuyItemPC {
             display: block;
         }
       }

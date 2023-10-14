@@ -4,6 +4,10 @@ export const Container = styled.main`
     background: #122D42;
     padding: 1.5rem;
     margin-bottom: 2rem;
+
+    @media screen and (min-width: 1000px) {
+        padding: 2rem 15rem;
+    }
 `
 
 export const Title = styled.h2`

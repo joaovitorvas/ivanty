@@ -4,7 +4,7 @@ import Input from "../../components/Input";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { useNavigate } from "react-router-dom";
-import { Container, LoginContainer, Column, Spacing, Title } from "./styles";
+import { Container, LoginContainer, Column, Spacing, Title, Text, Termos } from "./styles";
 import { IvantyWoman } from "../../components/IvantyWoman";
 
 const schema = yup
@@ -90,6 +90,8 @@ const Register = () => {
             control={control}
             errorMessage={errors?.password?.message}
           />
+          <Spacing />
+          <Text>Já tem conta? <a href={'./login'}><Termos>clique aqui</Termos></a></Text>
           <Spacing />
           <Button title="Cadastrar" disabled={!isValid} onClick={handleRegister}/>
         </Column>

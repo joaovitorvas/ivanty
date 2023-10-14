@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     width: 90%; 
-    height: 100vh;
     margin: auto;
+    margin: 2rem auto ;
     
     display: flex;
     justify-content: center;
@@ -49,4 +49,25 @@ export const Column = styled.div`
 `
 export const Spacing = styled.div`
     margin: 10px 0;
+`
+
+export const Text = styled.p`
+    margin-left: 0.5rem;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+`
+
+export const Termos = styled.p`
+    color: #000;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-block;
 `

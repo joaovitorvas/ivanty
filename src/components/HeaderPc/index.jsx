@@ -14,14 +14,14 @@ export const HeaderPC = () => {
             <Logo src={logo}/>
           </a>
           <MenuPC>
+          <AMenuItem href={'/register'}>
+              <MenuItem>Cadastrar-se</MenuItem>
+            </AMenuItem>
             <AMenuItem href={'/categories'}>
               <MenuItem>Categorias</MenuItem>
             </AMenuItem>
             <AMenuItem href={'/perfil'}>
               <MenuItem>Perfil</MenuItem>
-            </AMenuItem>
-            <AMenuItem href={'/obras'}>
-              <MenuItem>Obras</MenuItem>
             </AMenuItem>
             <AMenuItem href={'/artists'}>
               <MenuItem>Artistas</MenuItem>

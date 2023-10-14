@@ -5,7 +5,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { useNavigate } from "react-router-dom";
 
-import { Container, LoginContainer, Column, Spacing, Title } from "./styles";
+import { Container, LoginContainer, Column, Spacing, Title, Termos, Text } from "./styles";
 import { IvantyWoman } from "../../components/IvantyWoman";
 
 const schema = yup
@@ -58,6 +58,8 @@ const Login = () => {
             control={control}
             errorMessage={errors?.password?.message}
           />
+          <Spacing />
+          <Text>Não possui conta, <a href={'./register'}><Termos>clique aqui</Termos></a></Text>
           <Spacing />
           <Button title="Entrar" disabled={!isValid} onClick={handleLogin}/>
         </Column>
