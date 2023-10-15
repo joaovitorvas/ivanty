@@ -14,9 +14,6 @@ const Card = () => {
       <Container>
         <CardItems>
           <CardItem image={image} title={'Campo de Trigo'} author={'Edward Munch'} price={'799.99'}/>
-          <CardItem image={image} title={'Campo de Trigo'} author={'Edward Munch'} price={'799.99'}/>
-          <CardItem image={image} title={'Campo de Trigo'} author={'Edward Munch'} price={'799.99'}/>
-          <CardItem image={image} title={'Campo de Trigo'} author={'Edward Munch'} price={'799.99'}/>
         </CardItems>
         <a href={'./'}>
           <FinalizarCompra>
