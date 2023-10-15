@@ -8,13 +8,13 @@ import { Categories } from "../../components/Categories";
 import categoriesBanner from './../../assets/images/categoriesBanner.jpg'
 import { Banner } from "../../components/Banner";
 import { PinturasCard } from "../../components/PinturasCard";
-import obra from './../../assets/images/campoDeTrigo.jpg'
+import obra8 from './../../assets/rembrandt/obra.jpg'
+import obra9 from './../../assets/rembrandt/obra2.jpg'
+import obra10 from './../../assets/dali/obra.jpg'
+import obra11 from './../../assets/dali/obra2.jpg'
+import obra12 from './../../assets/michelangelo/obra.jpg'
 let text = 'Pinturas'
 let text2 = 'Fotografias'
-let title = 'Campo de trigo'
-let author = 'Vincent Van Gogh'
-let price = '799,99'
-
 
 const CategoriesScreen = (props) => {
   return (
@@ -41,11 +41,11 @@ const CategoriesScreen = (props) => {
            Veja algumas das obras que estão bombando em nossa plataforma: 
           </DescriptText>
           <PinturasLIst>
-          <PinturasCard title={title} author={author} img={obra} price={price}/>
-          <PinturasCard title={title} author={author} img={obra} price={price}/>
-          <PinturasCard title={title} author={author} img={obra} price={price}/>
-          <PinturasCard title={title} author={author} img={obra} price={price}/>
-          <PinturasCard title={title} author={author} img={obra} price={price}/>
+          <PinturasCard title={'A Ronda Nocturna'} author={'Rembrandt'} img={obra8} price={'899.99'}/>
+          <PinturasCard title={'Autorretrato com Dois Círculos'} author={'Rembrandt'} img={obra9} price={'949.99'}/>
+          <PinturasCard title={'A Persistência da Memória'} author={'Salvador Dalí'} img={obra10} price={'1049.99'}/>
+          <PinturasCard title={'Cristo de São João da Cruz'} author={'Salvador Dalí'} img={obra11} price={'999.99'}/>
+          <PinturasCard title={'David'} author={'Michelangelo'} img={obra12} price={'1199.99'}/>
           </PinturasLIst>
         </DescriptionContainer>
         

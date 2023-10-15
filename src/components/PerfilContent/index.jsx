@@ -1,51 +1,33 @@
 // import artist from './../../assets/images/artist.jpg'
 import { ContainerNameBio, GridContainer, PaintingsList, PerfilBio, PerfilDescription, PerfilHead, PerfilImage, PerfilName, PerfilPhoto, PhotoContainer } from './styles';
-import perfilImage from './../../assets/images/perfilImage.jpg'
-import perfilPhoto from './../../assets/images/artist.jpg'
 import { PinturasCard } from '../PinturasCard';
-import obra from './../../assets/images/campoDeTrigo.jpg'
-let title = 'Campo de trigo'
-let author = 'Vincent Van Gogh'
-let price = '799,99'
 
-export const PerfilContent = () => {
+export const PerfilContent = (props) => {
     return (
         <>
-            <PerfilImage src={perfilImage}/> 
+            <PerfilImage src={props.backgrondPhoto}/> 
             <PerfilDescription>
                 <GridContainer>
                     <PhotoContainer>
-                        <PerfilPhoto src={perfilPhoto} />
+                        <PerfilPhoto src={props.photo} />
                     </PhotoContainer>
                     <ContainerNameBio>
                         <PerfilName>
-                            Vincent Van Gogh
+                            {props.name}
                         </PerfilName>
                         <PerfilHead>
-                            Pintor/Holanda/37 anos
+                            {props.head}
                         </PerfilHead>
                     </ContainerNameBio>          
                 </GridContainer>
                 <PerfilBio>
-                    Vincent Van Gogh (1853-1890) foi um importante pintor holandês, um dos maiores representantes da pintura pós-impressionista.
+                   {props.bio}
                 </PerfilBio>
             </PerfilDescription>  
             <PaintingsList>
-                <PinturasCard title={title} author={author} img={obra} price={price}/>
-                <PinturasCard title={title} author={author} img={obra} price={price}/>
-                <PinturasCard title={title} author={author} img={obra} price={price}/>
-                <PinturasCard title={title} author={author} img={obra} price={price}/>
-                <PinturasCard title={title} author={author} img={obra} price={price}/>
-                <PinturasCard title={title} author={author} img={obra} price={price}/>
-                <PinturasCard title={title} author={author} img={obra} price={price}/>
-                <PinturasCard title={title} author={author} img={obra} price={price}/>
-                <PinturasCard title={title} author={author} img={obra} price={price}/>
-                <PinturasCard title={title} author={author} img={obra} price={price}/>
-                <PinturasCard title={title} author={author} img={obra} price={price}/>
-                <PinturasCard title={title} author={author} img={obra} price={price}/>
-                <PinturasCard title={title} author={author} img={obra} price={price}/>
-                <PinturasCard title={title} author={author} img={obra} price={price}/>
-                <PinturasCard title={title} author={author} img={obra} price={price}/>
+                <PinturasCard title={props.title} author={props.author} img={props.obra} price={props.price}/>
+                <PinturasCard title={props.title2} author={props.author} img={props.obra2} price={props.price2}/>
+                <PinturasCard title={props.title3} author={props.author} img={props.obra3} price={props.price3}/>
             </PaintingsList>    
         </>
     );
