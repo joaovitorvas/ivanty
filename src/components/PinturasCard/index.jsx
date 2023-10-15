@@ -40,7 +40,7 @@ export const PinturasCard = (props) => {
             </GridContainer>
             <GridContainer2>
                 <BuyButton>
-                    <a href={'./buyItem'}>
+                    <a href={props.link}>
                         <BuyButtonText>
                             COMPRAR
                         </BuyButtonText>

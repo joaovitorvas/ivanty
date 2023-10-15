@@ -41,11 +41,11 @@ const CategoriesScreen = (props) => {
            Veja algumas das obras que estão bombando em nossa plataforma: 
           </DescriptText>
           <PinturasLIst>
-          <PinturasCard title={'A Ronda Nocturna'} author={'Rembrandt'} img={obra8} price={'899.99'}/>
-          <PinturasCard title={'Autorretrato com Dois Círculos'} author={'Rembrandt'} img={obra9} price={'949.99'}/>
-          <PinturasCard title={'A Persistência da Memória'} author={'Salvador Dalí'} img={obra10} price={'1049.99'}/>
-          <PinturasCard title={'Cristo de São João da Cruz'} author={'Salvador Dalí'} img={obra11} price={'999.99'}/>
-          <PinturasCard title={'David'} author={'Michelangelo'} img={obra12} price={'1199.99'}/>
+            <PinturasCard link={'./a-ronda-nocturna'} title={'A Ronda Nocturna'} author={'Rembrandt'} img={obra8} price={'899.99'}/>
+            <PinturasCard link={'./autorretrato-com-dois-circulos'} title={'Autorretrato com Dois Círculos'} author={'Rembrandt'} img={obra9} price={'949.99'}/>
+            <PinturasCard link={'./a-persistencia-da-memoria'} title={'A Persistência da Memória'} author={'Salvador Dalí'} img={obra10} price={'1049.99'}/>
+            <PinturasCard link={'./cristo-de-sao-joao-da-cruz'} title={'Cristo de São João da Cruz'} author={'Salvador Dalí'} img={obra11} price={'999.99'}/>
+            <PinturasCard link={'./david'} title={'David'} author={'Michelangelo'} img={obra12} price={'1199.99'}/>
           </PinturasLIst>
         </DescriptionContainer>
         
