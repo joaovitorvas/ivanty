@@ -126,9 +126,9 @@ export const DescriptionTitle = styled.h2`
 export const DescriptionText = styled.p`
     color: #FFF;
     font-family: Roboto;
-    font-size: 0.9375rem;
+    font-size: 1rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
 
     margin-bottom: 2rem;
