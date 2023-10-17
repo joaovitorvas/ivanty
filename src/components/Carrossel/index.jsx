@@ -3,16 +3,16 @@ import { useState, useEffect, useRef } from 'react'
 import { Artist, ArtistName, ArtistPicture } from '../ArtistsContainer/styles';
 import image1 from './../../assets/images/artist.jpg'
 import image2 from './../../assets/picasso/photo.jpg'
-import image3 from './../../assets/davinci/photo.png'
-import image4 from './../../assets/monet/photo.png'
+import image3 from './../../assets/davinci/photo.jpg'
+import image4 from './../../assets/monet/photo.jpg'
 import image5 from './../../assets/rembrandt/photo.jpg'
 import image6 from './../../assets/dali/photo.jpg'
-import image7 from './../../assets/warhol/photo.webp'
+import image7 from './../../assets/warhol/photo.jpg'
 import image8 from './../../assets/michelangelo/photo.jpg'
 import image9 from './../../assets/raphael/photo.jpg'
 import image10 from './../../assets/vermeer/photo.jpg'
 import image11 from './../../assets/caravaggio/photo.jpg'
-import image12 from './../../assets/boticelli/photo.png'
+import image12 from './../../assets/boticelli/photo.jpg'
 import { App, Carousel, GetImage, Item } from './styles';
 
 // Importe as imagens conforme necessário
