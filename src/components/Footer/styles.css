@@ -282,3 +282,8 @@ footer{
         transition: all 0.4s ease;
     }
   }
+
+
+.RelateTeuErro {
+  height: 200px !important;
+}

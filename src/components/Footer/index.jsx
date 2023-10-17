@@ -1,10 +1,10 @@
 import React from "react";
 import './styles.css'
 import logo from './../../assets/images/Logotipo.svg'
-import faceLogo from './../../assets/icons/logo-facebook.svg'
-import twitterLogo from './../../assets/icons/logo-twitter.svg'
-import instaLogo from './../../assets/icons/logo-instagram.svg'
-import whatsappLogo from './../../assets/icons/logo-whatsapp.svg'
+import faceLogo from './../../assets/images/facebook.png'
+import twitterLogo from './../../assets/images/twitter.png'
+import instaLogo from './../../assets/images/instagram (1).png'
+import whatsappLogo from './../../assets/images/whatsapp.png'
 
 const Footer = () => {
   return (
@@ -88,7 +88,7 @@ const Footer = () => {
               <input type="text" placeholder="Digite seu nome " />
             </li>
             <li>
-              <input type="text" placeholder="Digite uma melhora" />
+              <input className="RelateTeuErro" type="text" placeholder="Relate o que aconteceu?" />
             </li>
             <a href="./">
               <li>

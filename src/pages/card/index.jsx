@@ -9,7 +9,7 @@ import { CardItems, Container, FinalizarCompra } from './styles';
 const Card = () => {
   return (
     <div className="Pinturas">
-      <Header/>
+      <Header link={'./'} item={'Home'} link2={'./artists'} item2={'Artistas'} link3={'./about'} item3={'Sobre'}/>
       <HeaderPC/>
       <Container>
         <CardItems>

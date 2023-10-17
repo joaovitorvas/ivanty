@@ -6,15 +6,11 @@ import {
 
 import { GlobalStyle } from './../src/globals/globalstyle';
 import { Home } from './pages/home/index'
-import { Pinturas } from './pages/pinturas/index'
-// import { PinturaOGrito } from './pages/pinturaOGrito/index'
 import { Card } from "./pages/card";
 import { Perfil } from "./pages/perfil";
 import { About } from "./pages/about";
 import Login from "./pages/forms";
-import { Fotografias } from "./pages/fotografias";
 import { CategoriesScreen } from "./pages/categories";
-import { Obras } from "./pages/obras";
 import { Artists } from "./pages/artists";
 import Register from "./pages/register";
 import { BuyItem } from "./pages/buyItem";
@@ -27,7 +23,7 @@ import photoPicasso from './assets/picasso/photo.jpg'
 import obraPicasso from './assets/picasso/obra.jpg'
 import obraPicasso2 from './assets/picasso/obras2.jpg'
 import obraPicasso3 from './assets/picasso/obra3.jpg'
-import photoDaVinci from './assets/davinci/photo.jpg'
+import photoDaVinci from './assets/davinci/photo.png'
 import obraVinci from './assets/davinci/obra.jpg'
 import obraVinci2 from './assets/davinci/obra2.webp'
 import obraVinci3 from './assets/davinci/obra3.jpg'
@@ -67,6 +63,11 @@ import photoBotticelli from './assets/boticelli/photo.png'
 import obraBotticelli from './assets/boticelli/obra.jpg'
 import obraBotticelli2 from './assets/boticelli/obra2.jpg'
 import obraBotticelli3 from './assets/boticelli/obra3.jpg'
+import { CategorieItem } from "./pages/categorieItem";
+import popArt from './assets/images/brazilianDiversity.jpg'
+import fotorrealismo from './assets/images/fotorreaslismoBiodiversity.jpg'
+import arteConceitual from './assets/images/arteConceitual.jpg'
+import arteMinimalista from './assets/images/arteMinimalista.jpg'
 
 function App() {
   return (
@@ -74,7 +75,6 @@ function App() {
     <GlobalStyle />
         <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/pinturas" element={<Pinturas />} />
         <Route path="/card" element={<Card />} />
         <Route path="/vangogh" element={<Perfil backgrondPhoto={obra2} photo={photo} name={'Van Gogh'} head={'Pintor/Holanda/37 anos'} bio={'Vincent Van Gogh (1853-1890) foi um importante pintor holandês, um dos maiores representantes da pintura pós-impressionista.'} title={'Noite estrelada'} title2={'Campo de Trigo'} title3={'Os comedores de Batata'} author={'Vincent Van Gogh'} obra={obra2} obra2={obra3} obra3={obra} price={1999.90} price2={1199.90} price3={'899.90'} />} />
         <Route path="/picasso" element={<Perfil backgrondPhoto={obraPicasso} photo={photoPicasso} name={'Pablo Picasso'} head={'Pintor/Espanhol/91 anos'} bio={'Pablo Picasso foi um pintor, escultor, ceramista, cenógrafo, poeta e dramaturgo espanhol. Nasceu em Málaga em 1881 e morreu em Mougins em 1973. Foi um dos maiores e mais influentes artistas do século XX, co-fundador do cubismoe inventor da colagem.'} title={'O quarto azul'} title2={'Retrato de Gertrude Stein'} title3={'Chicago Picasso'} author={'Pablo Picasso'} obra={obraPicasso} obra2={obraPicasso2} obra3={obraPicasso3} price={1999.90} price2={1199.90} price3={'899.90'} />} />
@@ -88,12 +88,9 @@ function App() {
         <Route path="/vermeer" element={<Perfil backgrondPhoto={obraVermeer} photo={photoVermeer} name={'Johannes Vermeer'} head={'Pintor/Holandês/43 anos'} bio={'Johannes Vermeer (1632-1675) foi um pintor holandês renomado por suas obras detalhadas que retratam cenas domésticas comuns.'} title={'A Leiteira'} title2={'A Rua de Delft'} title3={'A Carta de Amor'} author={'Johannes Vermeer'} obra={obraVermeer} obra2={obraVermeer2} obra3={obraVermeer3} price={1999.90} price2={1199.90} price3={'899.90'} />} />
         <Route path="/caravaggio" element={<Perfil backgrondPhoto={obraCaravaggio} photo={photoCaravaggio} name={'Caravaggio'} head={'Pintor/Itália/38 anos'} bio={'Caravaggio (1571-1610) foi um pintor italiano notável por seu uso realista de luz e sombra.'} title={'A Ceia em Emaús'} title2={'David com a Cabeça de Golias'} title3={'Judite Decapitando Holofernes'} author={'Caravaggio'} obra={obraCaravaggio} obra2={obraCaravaggio2} obra3={obraCaravaggio3} price={1999.90} price2={1199.90} price3={'899.90'} />} />
         <Route path="/botticelli" element={<Perfil backgrondPhoto={obraBotticelli} photo={photoBotticelli} name={'Sandro Botticelli'} head={'Pintor/Itália/65 anos'} bio={'Sandro Botticelli (1445-1510) foi um pintor italiano da primeira parte do Renascimento. Ele é conhecido por suas representações mitológicas e religiosas.'} title={'O Nascimento de Vênus'} title2={'Primavera'} title3={'A Adoração dos Magos'} author={'Sandro Botticelli'} obra={obraBotticelli} obra2={obraBotticelli2} obra3={obraBotticelli3} price={1999.90} price2={1199.90} price3={'899.90'} />} />
-        <Route path="/fotografias" element={<Fotografias />} />
-        <Route path="/pinturas" element={<Pinturas />} />
         <Route path="/login" element={<Login />} />
         <Route path="/about" element={<About />} />
         <Route path="/categories" element={<CategoriesScreen />} />
-        <Route path="/obras" element={<Obras />} />
         <Route path="/artists" element={<Artists />} /> 
         <Route path="/register" element={<Register />} /> 
         <Route path="/profile" element={<EditPerfilPage />} /> 
@@ -253,7 +250,20 @@ function App() {
         description={"A Persistência da Memória é uma das obras mais famosas do pintor surrealista Salvador Dalí. A pintura é conhecida por suas imagens icônicas de relógios derretidos, que são frequentemente interpretados como uma representação do conceito fluido de tempo."}
         moreDetails={"A Persistência da Memória é frequentemente elogiada por sua representação imaginativa e surrealista da realidade, bem como pelo uso inovador de imagens para explorar ideias complexas."}
     />} />
+    <Route path="/popart" 
+    element={<CategorieItem banner={popArt} 
+    text={'A pop art é uma arte vibrante e crítica, inspirada na cultura de massa. Venha conhecer a exposição Pop Art: A Arte que Explodiu no Museu de Arte Moderna de São Paulo e se surpreenda com as obras de Andy Warhol, Roy Lichtenstein e outros. A exposição vai até o dia 30 de novembro de 2023.'}
+    title={'Pop Art'}/>} 
+    />
+   <Route path='/fotorrealismo' 
+   element={<CategorieItem banner={fotorrealismo} 
+   text={'O fotorrealismo é uma arte que busca reproduzir a realidade com precisão fotográfica. Venha conhecer a exposição Fotorrealismo: A Arte da Ilusão no Museu de Arte Contemporânea de São Paulo e se impressione com as obras de Richard Estes, Chuck Close, Audrey Flack e outros. A exposição vai até o dia 15 de dezembro de 2023.'} 
+   title={'Fotorrealismo'}/>} 
+   />
 
+   <Route path='/arteconceitual' element={<CategorieItem banner={arteConceitual} text={'A arte conceitual é uma forma de arte em que o conceito ou a ideia por trás da obra é mais importante do que o aspecto visual ou sensorial do produto final. Essa forma de arte enfatiza a importância de uma ideia ou conceito sobre a técnica e a estética, usada principalmente para expressar o abstrato. Ela surgiu como um movimento artístico nos anos 1960 e o termo geralmente se refere à arte feita desde meados dos anos 1960 até meados dos anos 1970. Venha conhecer a exposição Arte Conceitual: A Arte da Ideia no Museu de Arte Moderna de São Paulo e descubra como artistas como Joseph Kosuth, Art & Language, John Baldessari e outros exploraram e expressaram suas ideias.'} title={'Arte Conceitual'}/>} /> 
+   <Route path='/arteminimalista' element={<CategorieItem banner={arteMinimalista} text={'A arte minimalista é um estilo de arte e design que se caracteriza pela extrema simplicidade, focando em linhas limpas, cores mínimas e formas básicas. A arte minimalista não contém um significado subjacente ou uma compreensão mais profunda, como na maioria das artes abstratas. Ela se originou em Nova York no final dos anos 1960 e é marcada por uma abordagem literal e objetiva. Venha conhecer a exposição Arte Minimalista: A Arte do Essencial no Museu de Arte Contemporânea de São Paulo e se encante com as obras de Frank Stella, Donald Judd, Sol LeWitt e outros.'} title={'Arte Minimalista'}/>} />
+   
 
         </Routes>
     </BrowserRouter>

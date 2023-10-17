@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const HeaderContainers = styled.header`
-  height: 12rem;
+  height: 16rem;
   background: #000;
 
   @media screen and (min-width: 600px) {
@@ -18,22 +18,14 @@ export const FirstHeaderContainer = styled.div`
 }
 `
 
-export const SecondHeaderContainer = styled.div`
-  margin: 1rem;
-  margin-top: 2rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-`
 
-export const NavigateButton = styled.button`
-  height: 2rem;
-  width: 90%; 
-  margin: 0 auto;
-  background: #7b87c2;
-  border-radius: 3rem;
-  text-align: center;
+
+export const NavigateButton = styled.p`
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  font-size: .9rem;
-  border: none;
+  font-size: 1.1rem;
+  font-weight: 300;
+  display: inline-block;
+  margin-left: 1.5rem;
+  margin-top: 2rem;
 `

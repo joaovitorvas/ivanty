@@ -5,30 +5,28 @@ import { Logo } from "../Logo";
 import { SearchButton } from "../SearchButton";
 import { Card } from "../Card";
 import { NavigateButton } from "./styles";
-import { SecondHeaderContainer } from "./styles";
 
-export const Header = () => {
+export const Header = (props) => {
     return (
       <div className="headerTelasMenores">
 
       <HeaderContainers>
         <FirstHeaderContainer>
           <Logo/>
-          <SearchButton></SearchButton>
+          <div></div>
           <Card></Card>
           <Menu/>
         </FirstHeaderContainer>
-        <SecondHeaderContainer>
-          <a href="/artists">
-            <NavigateButton>Artistas</NavigateButton>
+        <SearchButton></SearchButton>
+          <a href={props.link}>
+            <NavigateButton>{props.item}</NavigateButton>
           </a>
-          <a href="/categories">
-            <NavigateButton>Categorias</NavigateButton>
+          <a href={props.link2}>
+            <NavigateButton>{props.item2}</NavigateButton>
           </a>
-          <a href="/register">
-            <NavigateButton>Cadastrar-se</NavigateButton>
+          <a href={props.link3}>
+            <NavigateButton>{props.item3}</NavigateButton>
           </a>
-        </SecondHeaderContainer>
       </HeaderContainers>
       </div>
 

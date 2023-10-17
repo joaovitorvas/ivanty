@@ -9,7 +9,7 @@ import { HeaderPC } from '../../components/HeaderPc';
 const Home = () => {
   return (
     <div className="Home">
-      <Header/>
+      <Header link={'./artists'} item={'Artistas'} link2={'./about'} item2={'Sobre'}/>
       <HeaderPC/>
       <Banner imagem={banner}/>
       <MainContainer/>

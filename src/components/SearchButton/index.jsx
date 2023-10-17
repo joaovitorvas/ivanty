@@ -5,7 +5,7 @@ import Autocomplete from '@mui/material/Autocomplete';
 
 export const SearchButton = () => {
   return (
-    <Stack spacing={2} sx={{ marginTop: 3.2, marginLeft: 1, color: '#7B87C2', borderRadius: 6, background: '#353535', height: 50, textAlign: 'center', fontFamily: 'roboto'}}>
+    <Stack spacing={2} sx={{ marginTop: 2, marginLeft: 2, marginRight: 2, color: '#7B87C2', borderRadius: 6, background: '#353535', height: 50, textAlign: 'center', fontFamily: 'roboto'}}>
     <Autocomplete
   id="free-solo-demo"
   freeSolo
@@ -13,7 +13,7 @@ export const SearchButton = () => {
   renderInput={(params) => (
     <TextField 
       {...params} 
-      label="Pesquisar" 
+      label="O que você está procurando? " 
       InputLabelProps={{
         ...params.InputLabelProps,
         style: { color: '#fff' },

@@ -5,7 +5,6 @@ import {
   CustomButton1,
   PerfilBio,
   Icon,
-  PerfilAdd,
   PerfilDescription,
   PerfilHead,
   PerfilImage,
@@ -120,12 +119,6 @@ export const EditPerfil = () => {
         </div>
       </PerfilDescription>
 
-
- 
-      
-      <PerfilAdd>
-        <h2>Adicione suas obras</h2>
-      </PerfilAdd>
       <div>
         <input
           type="file"
@@ -136,7 +129,7 @@ export const EditPerfil = () => {
           ref={inputRef}
         />
         <CustomButton1 onClick={handleCustomButton1Click}>
-          Adicionar
+          Quero Vender
         </CustomButton1>
       </div>
       <div className="image-grid">

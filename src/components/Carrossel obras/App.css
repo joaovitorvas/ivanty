@@ -11,16 +11,18 @@
 }
 
 .item{
-    min-height: 100px;
-    min-width: 8.5rem;
-    padding: 14px;
+    width: 100px; 
+    height: 100px;
+    padding: 4px;
+    margin: 10px; /* adicionar uma margem entre os itens */
 }
 
 .item img{
     width: 100%;
     height: 60%;
-    border-radius: 5rem;
+    border-radius: 10px; /* alterar o border-radius para bordas arredondadas */
     pointer-events: none;
+    object-fit: cover; /* adicionar o object-fit para ajustar a imagem */
 }
 
 .carousel{

@@ -1,28 +1,16 @@
 import { useState, useEffect, useRef } from 'react'
 import './App.css';
 import {motion} from 'framer-motion'
-import { Artist, ArtistName, ArtistPicture } from '../ArtistsContainer/styles';
+import { Categories } from '../Categories';
 
-import obra from './../../assets/images/campoDeTrigo.jpg'
-import obra1 from './../../assets/vangogh/noiteEstrelada.jpg'
-import obra2 from './../../assets/picasso/obra.jpg'
-import obra3 from './../../assets/picasso/obras2.jpg'
-import obra4 from './../../assets/davinci/obra.jpg'
-import obra5 from './../../assets/davinci/obra2.webp'
-import obra6 from './../../assets/monet/obras.jpg'
-import obra7 from './../../assets/monet/obra2.jpg'
-import obra8 from './../../assets/rembrandt/obra.jpg'
-import obra9 from './../../assets/rembrandt/obra2.jpg'
-import obra10 from './../../assets/dali/obra.jpg'
-import obra11 from './../../assets/dali/obra2.jpg'
-import obra12 from './../../assets/michelangelo/obra.jpg'
-import obra13 from './../../assets/michelangelo/obra2.jpg'
-import obra14 from './../../assets/raphael/obra.jpg'
-
-
-const images = [obra, obra1, obra2, obra3, obra4, obra5, obra6, obra7, obra8, obra9, obra10, obra11, obra12, obra13, obra14];
-const names = ['Campo de trigo', 'Noite Estrelada', 'O Quarto Azul', 'Retrato de Gertrude Stein', 'Mona Lisa', 'A Última Ceia', 'Nenúfares', 'Mulheres no Jardim', 'A Ronda Nocturna', 'Autorretrato com Dois Círculos', 'A Persistência da Memória', 'Cristo de São João da Cruz'];
-const links = ['./campo-de-trigo', './noite-estrelada', './o-quarto-azul', './retrato-de-gertrude-stein', './monalisa', './a-ultima-ceia', './nenúfares', './mulheres-no-jardim', './a-ronda-nocturna', './autorretrato-com-dois-circulos', './a-persistencia-da-memoria', './cristo-de-sao-joao-da-cruz'];
+import backgroundImage from './../../assets/images/brazilianDiversity.jpg'
+import backgroundImage2 from './../../assets/images/fotorreaslismoBiodiversity.jpg'
+import backgroundImage3 from './../../assets/images/arteConceitual.jpg'
+import backgroundImage4 from './../../assets/images/arteMinimalista.jpg'
+let text = 'Pop Art'
+let text2 = 'Fotorrealismo'
+let text3 = 'Arte conceitual'
+let text4 = 'Arte minimalista'
 
 function ObrasCarousel() {
   const carousel = useRef();
@@ -33,6 +21,13 @@ function ObrasCarousel() {
     setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth);
   }, []);
   
+  // criar um array com os objetos que contêm as propriedades do componente Categories
+  const categories = [
+    {link: './popart', backgroundImage: backgroundImage, categoriesText: text},
+    {link: './fotorrealismo', backgroundImage: backgroundImage2, categoriesText: text2},
+    {link: './arteconceitual', backgroundImage: backgroundImage3, categoriesText: text3},
+    {link: './arteminimalista', backgroundImage: backgroundImage4, categoriesText: text4}
+  ]
 
   return (
     <div className="App">
@@ -42,15 +37,8 @@ function ObrasCarousel() {
           drag="x"
           dragConstraints={{ right: 0, left: -width }}
         >
-          {images.map((image, index) => (
-            <motion.div className="item" key={index}>
-              <a href={links[index]}>
-                <Artist>
-                  <ArtistPicture src={image} />
-                  <ArtistName>{names[index]}</ArtistName>
-                </Artist>
-              </a>
-            </motion.div>
+          {categories.map((category, index) => (
+            <Categories key={index} link={category.link} backgroundImage={category.backgroundImage} categoriesText={category.categoriesText} />
           ))}
         </motion.div>
       </motion.div>

@@ -24,7 +24,7 @@ import artist12 from './../../assets/boticelli/photo.png'
 const Artists = (props) => {
   return (
     <div className="Pinturas">
-      <Header/>
+      <Header link={'./'} item={'Home'} link2={'./about'} item2={'Sobre'}/>
       <HeaderPC/>
       <Banner imagem={popartBanner}/>
       <TextContainer>

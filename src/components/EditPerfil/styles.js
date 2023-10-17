@@ -158,12 +158,12 @@ export const CustomButton1 = styled.div`
     justify-content: center; /* Centralize horizontalmente */
     align-items: center; /* Centralize verticalmente */
     height: 5vh; /* Defina a altura como 100% da altura da tela */
-    background: #2B47D0; /* Cor de fundo azul */
+    background: #FF0090; /* Cor de fundo rosa */
     border: none; /* Remova a borda se desejado */
     border-radius: 10px; /* Borda arredondada */
     margin-left: 5rem;
     margin-right: 5rem;
-    margin-top: 0.5rem;
+    margin-top: 2rem;
     color: white;
     cursor: pointer;
 

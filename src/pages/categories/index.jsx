@@ -19,7 +19,7 @@ let text2 = 'Fotografias'
 const CategoriesScreen = (props) => {
   return (
     <div className="Pinturas">
-      <Header/>
+      <Header link={'./'} item={'Home'} link2={'./artists'} item2={'Artistas'} link3={'./about'} item3={'Sobre'}/>
       <HeaderPC/>
         <Banner imagem={categoriesBanner}/>
       <CategoriesContent>

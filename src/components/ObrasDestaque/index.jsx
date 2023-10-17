@@ -22,7 +22,7 @@ export const ObrasDestaque = () => {
         <>
             <ObrasEmDestaqueContainer>
                 <ObrasText>
-                    Obras em destaque:
+                    Obras em destaque
                 </ObrasText>
                 <GridContainer>
                     <PinturasCard link={'./campo-de-trigo'} title={'Campo de trigo'} author={'Vincent Van Gogh'} img={obra} price={'799.99'}/>

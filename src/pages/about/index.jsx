@@ -10,7 +10,7 @@ import brazilianDiversity from './../../assets/images/brazilianDiversity.jpg'
 const About = (props) => {
   return (
     <div className="Pinturas">
-      <Header/>
+      <Header link={'./artists'} item={'Artistas'} link2={'./categories'} item2={'Categories'}/>
       <HeaderPC/>
       <Banner imagem={surrealistBanner}/>
       <Container>
