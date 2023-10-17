@@ -19,14 +19,14 @@ export const Header = () => {
           <Menu/>
         </FirstHeaderContainer>
         <SecondHeaderContainer>
-          <a href="/register">
-            <NavigateButton>Cadastrar-se</NavigateButton>
-          </a>
           <a href="/artists">
             <NavigateButton>Artistas</NavigateButton>
           </a>
           <a href="/categories">
             <NavigateButton>Categorias</NavigateButton>
+          </a>
+          <a href="/register">
+            <NavigateButton>Cadastrar-se</NavigateButton>
           </a>
         </SecondHeaderContainer>
       </HeaderContainers>

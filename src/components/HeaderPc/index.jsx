@@ -14,9 +14,6 @@ export const HeaderPC = () => {
             <Logo src={logo}/>
           </a>
           <MenuPC>
-          <AMenuItem href={'/register'}>
-              <MenuItem>Cadastrar-se</MenuItem>
-            </AMenuItem>
             <AMenuItem href={'/categories'}>
               <MenuItem>Categorias</MenuItem>
             </AMenuItem>
@@ -28,6 +25,9 @@ export const HeaderPC = () => {
             </AMenuItem>
             <AMenuItem href={'/about'}>
               <MenuItem>Sobre</MenuItem>
+            </AMenuItem>
+          <AMenuItem href={'/register'}>
+              <MenuItem>Cadastrar-se</MenuItem>
             </AMenuItem>
           </MenuPC>
           <SearchButton></SearchButton>
