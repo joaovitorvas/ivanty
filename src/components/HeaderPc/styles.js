@@ -6,7 +6,7 @@ export const HeaderContainers = styled.header`
 `
 export const FirstHeaderContainer = styled.div`
   display: grid;
-  margin: 0 5rem;
+  margin: 0 8.5rem;
   grid-template-columns: 40px 3.5fr 1fr 0.5fr;
 `
 

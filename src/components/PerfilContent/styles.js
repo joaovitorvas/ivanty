@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const PhotoContainer = styled.div`
     position: relative;
     height: 5rem;
+
+   
 `
 export const PerfilImage = styled.img`
     width: 100%;
@@ -37,6 +39,8 @@ export const PerfilDescription = styled.div`
     @media screen and (min-width: 600px) {
         padding: 2rem 10rem;
     }
+
+   
 `
 
 export const PerfilName = styled.p`

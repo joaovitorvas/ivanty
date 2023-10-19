@@ -8,6 +8,11 @@ export const Container = styled.main`
     @media screen and (min-width: 1000px) {
         padding: 2rem 15rem;
     }
+
+    @media screen and (min-width: 1500px) {
+        padding: 2rem 3rem;
+        margin: 0rem 10rem;
+    }
 `
 
 export const Title = styled.h2`

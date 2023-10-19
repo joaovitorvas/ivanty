@@ -3,6 +3,11 @@ import styled from 'styled-components'
 export const Main = styled.main`
   margin-top: 2rem;
   margin-bottom: 2rem;
+
+  @media screen and (min-width: 1500px) {
+    margin: 1rem 10rem;
+}
+
 `
 
 export const ListCategories = styled.div`

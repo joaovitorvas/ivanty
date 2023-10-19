@@ -9,3 +9,14 @@ img {
         height: auto;
     }
 }
+
+@media screen and (min-width: 1500px) {
+    .bannerContainer {
+        margin: 0 10rem;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
