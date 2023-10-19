@@ -89,12 +89,22 @@ export const BuyButtonText = styled.p`
     color: #FFF;
     text-align: center;
     font-family: Roboto;
-    font-size: 0.75rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 
     @media screen and (min-width: 400px) {
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    @media screen and (min-width: 1500px) {
         color: #FFF;
         text-align: center;
         font-family: Roboto;
@@ -114,11 +124,15 @@ export const HeartIcon = styled.img`
 
     @media screen and (min-width: 360px) {
         max-width: 2.8rem;
-    height: auto;
-    text-align: center;
+        height: auto;
+        text-align: center;
 
     cursor: pointer;
     }    
+
+    @media screen and (min-width: 1500px) {
+        max-width: 2rem;
+    }
 
 
 `
