@@ -16,7 +16,7 @@ export const Artist = styled.div`
 `
 
 export const ArtistPicture = styled.img`
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   border-radius: 5rem;
   text-align: center;
