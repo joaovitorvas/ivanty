@@ -46,7 +46,6 @@ const Artists = (props) => {
         <ArtistBox img={artist11} name={'Caravaggio'} bio={'Caravaggio (1571-1610) foi um pintor italiano notável por seu uso realista de luz e sombra.'} link={'/caravaggio'}/>
         <ArtistBox img={artist12} name={'Botticelli'} bio={'Sandro Botticelli (1445-1510) foi um pintor italiano da primeira parte do Renascimento.'} link={'/botticelli'}/>
       </ListArtists>
-
         <ArtistsContainer/>  
       </Container>
       <Footer/>

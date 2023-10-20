@@ -7,6 +7,10 @@ export const Container = styled.main`
 export const TextContainer = styled.div`
     padding: 1rem;
     background: #122D42; 
+
+    @media screen and (min-width: 600px) {
+       margin: 0 10rem;
+    }
 `
 export const Text = styled.p`
     color: #FFF;
@@ -32,7 +36,8 @@ export const ListArtists = styled.div`
     }
 
     @media screen and (min-width: 1500px) {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0rem 10rem; 
     }
 
 `
