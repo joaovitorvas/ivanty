@@ -19,9 +19,9 @@ const CategorieItem = (props) => {
           <Text>
             {props.text}
           </Text>
+          <ObrasDestaque/>
+          <ArtistsContainer/>
         </Container>
-        <ObrasDestaque/>
-        <ArtistsContainer/>
       <Footer/>
     </div>
   );

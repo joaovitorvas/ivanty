@@ -166,8 +166,10 @@ export const CustomButton1 = styled.div`
     margin-top: 2rem;
     color: white;
     cursor: pointer;
-
-
+    
+    @media screen and (min-width: 1500px) {
+        margin: 2rem 10rem;
+    }
 `;
 
 

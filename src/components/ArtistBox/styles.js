@@ -35,9 +35,9 @@ export const ArtistName = styled.p`
 export const ArtistBio = styled.p`
     color: #FFF;
     font-family: Roboto;
-    font-size: 0.9375rem;
+    font-size: 1rem;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     line-height: normal;
     text-align: center;
     margin-top: 1rem;
