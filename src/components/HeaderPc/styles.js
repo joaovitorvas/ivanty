@@ -71,7 +71,7 @@ export const Logo = styled.img`
 export const MenuPC = styled.div`
   margin-left: 2rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 `
 export const AMenuItem = styled.a`
   margin-top: 2.2rem;

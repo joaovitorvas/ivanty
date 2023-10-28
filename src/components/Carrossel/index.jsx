@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from 'react'
-// import './App.css'; // remover o arquivo CSS
 import { Artist, ArtistName, ArtistPicture } from '../ArtistsContainer/styles';
 import image1 from './../../assets/images/artist.jpg'
 import image2 from './../../assets/picasso/photo.jpg'
@@ -21,8 +20,6 @@ const images = [image1, image2, image3, image4, image5, image6, image7, image8, 
 const names = ['Van Gogh', 'Picasso', 'Da Vinci', 'Monet', 'Rembrandt', 'Dali', 'Warhol', 'Michelangelo', 'Raphael', 'Vermeer', 'Caravaggio', 'Botticelli']
 // Adicione os links correspondentes aos artistas
 const links = ['/vangogh', '/picasso', '/davinci', '/monet', '/rembrandt', '/dali', '/warhol', '/michelangelo', '/raphael', '/vermeer', '/caravaggio', '/botticelli']
-
-// Importar o styled-components
 
 
 function ArtistsCarousel() {

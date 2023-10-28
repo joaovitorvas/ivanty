@@ -14,9 +14,6 @@ export const HeaderPC = () => {
             <Logo src={logo}/>
           </a>
           <MenuPC>
-            <AMenuItem href={'/categories'}>
-              <MenuItem>Categorias</MenuItem>
-            </AMenuItem>
             <AMenuItem href={'/profile'}>
               <MenuItem>Perfil</MenuItem>
             </AMenuItem>

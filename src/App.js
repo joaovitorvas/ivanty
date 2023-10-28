@@ -10,7 +10,6 @@ import { Card } from "./pages/card";
 import { Perfil } from "./pages/perfil";
 import { About } from "./pages/about";
 import Login from "./pages/forms";
-import { CategoriesScreen } from "./pages/categories";
 import { Artists } from "./pages/artists";
 import Register from "./pages/register";
 import { BuyItem } from "./pages/buyItem";
@@ -90,7 +89,6 @@ function App() {
         <Route path="/botticelli" element={<Perfil backgrondPhoto={obraBotticelli} photo={photoBotticelli} name={'Sandro Botticelli'} head={'Pintor/Itália/65 anos'} bio={'Sandro Botticelli (1445-1510) foi um pintor italiano da primeira parte do Renascimento. Ele é conhecido por suas representações mitológicas e religiosas.'} title={'O Nascimento de Vênus'} title2={'Primavera'} title3={'A Adoração dos Magos'} author={'Sandro Botticelli'} obra={obraBotticelli} obra2={obraBotticelli2} obra3={obraBotticelli3} price={1999.90} price2={1199.90} price3={'899.90'} />} />
         <Route path="/login" element={<Login />} />
         <Route path="/about" element={<About />} />
-        <Route path="/categories" element={<CategoriesScreen />} />
         <Route path="/artists" element={<Artists />} /> 
         <Route path="/register" element={<Register />} /> 
         <Route path="/profile" element={<EditPerfilPage />} /> 
