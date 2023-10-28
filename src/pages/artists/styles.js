@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.main`
-    margin: 0rem 10rem; 
+    margin-top: 2rem;
 `
 
 export const TextContainer = styled.div`
@@ -9,7 +9,7 @@ export const TextContainer = styled.div`
     background: #122D42; 
 
     @media screen and (min-width: 600px) {
-       margin: 0 10rem;
+    //    margin: 0 10rem;
     }
 `
 export const Text = styled.p`
@@ -36,7 +36,7 @@ export const ListArtists = styled.div`
     }
 
     @media screen and (min-width: 1500px) {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
 `

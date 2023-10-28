@@ -24,6 +24,11 @@ export const GridContainer = styled.div`
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+
+    @media screen and (min-width: 1500px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
 `
 
 export const ObrasText = styled.h2`

@@ -1,10 +1,9 @@
-import { ArtistsContainer } from "../../components/ArtistsContainer";
 import { Banner } from "../../components/Banner";
 import Footer from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { HeaderPC } from "../../components/HeaderPc";
-import popartBanner from './../../assets/images/popartBanner.jpg'
-import { Container, ListArtists, Text, TextContainer } from "./styles";
+import popartBanner from './../../assets/images/popartBanner.png'
+import { Container, ListArtists } from "./styles";
 import { ArtistBox } from "../../components/ArtistBox";
 
 import artist1 from './../../assets/images/artist.jpg'
@@ -27,10 +26,6 @@ const Artists = (props) => {
       <Header link={'./'} item={'Home'} link2={'./about'} item2={'Sobre'}/>
       <HeaderPC/>
       <Banner imagem={popartBanner}/>
-      <TextContainer>
-        <Text>Os melhores artistas estão aqui, conheça um pouco dos artistas que fazem a nossa plataforma única.</Text>
-      </TextContainer>
-
       <Container>
       <ListArtists>
         <ArtistBox img={artist1} name={'Van Gogh'} bio={'Vincent Van Gogh (1853-1890) foi um importante pintor holandês.'} link={'/vangogh'}/>
@@ -46,7 +41,6 @@ const Artists = (props) => {
         <ArtistBox img={artist11} name={'Caravaggio'} bio={'Caravaggio (1571-1610) foi um pintor italiano notável por seu uso realista de luz e sombra.'} link={'/caravaggio'}/>
         <ArtistBox img={artist12} name={'Botticelli'} bio={'Sandro Botticelli (1445-1510) foi um pintor italiano da primeira parte do Renascimento.'} link={'/botticelli'}/>
       </ListArtists>
-        <ArtistsContainer/>  
       </Container>
       <Footer/>
     </div>

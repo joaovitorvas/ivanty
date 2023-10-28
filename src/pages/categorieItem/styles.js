@@ -5,9 +5,9 @@ export const Container = styled.div`
     padding: 2rem;
     background: #122D42;
 
-    @media screen and (min-width: 1500px) {
-        margin: 0 10rem;
-    }
+    // @media screen and (min-width: 1500px) {
+    //     margin: 0 10rem;
+    // }
 `
 
 export const Title = styled.h2`
@@ -18,6 +18,7 @@ export const Title = styled.h2`
     font-weight: 700;
     line-height: normal;
     margin-bottom: 1rem;
+    margin: 1rem 2rem;
 `
 
 export const Text = styled.p`
@@ -27,4 +28,5 @@ export const Text = styled.p`
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    margin: 2rem;
 `

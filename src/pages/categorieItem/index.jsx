@@ -20,8 +20,8 @@ const CategorieItem = (props) => {
             {props.text}
           </Text>
           <ObrasDestaque/>
-          <ArtistsContainer/>
         </Container>
+          <ArtistsContainer/>
       <Footer/>
     </div>
   );
