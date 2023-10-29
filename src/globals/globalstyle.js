@@ -50,6 +50,22 @@ export const GlobalStyle = createGlobalStyle`
             display: block;
         }
       }
+
+      .About {
+        display: block;
+      }
+      .AboutPC {
+        display: none;
+      }
+      
+      @media (min-width: 1000px) {
+        .About {
+          display: none;
+        }
+        .AboutPC {
+          display: block;
+        }
+      }
 `
 
   

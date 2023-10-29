@@ -17,7 +17,7 @@
 
 
 footer{
-    background: #122D42;
+    background: #000;
     width: 100%;
     bottom: 0;
     left: 0;
@@ -132,7 +132,7 @@ footer{
     width: calc(100% + 55px);
     outline: none;
     border: 2px solid #AFAFB6;
-    background: #140B5C;
+    background: rgb(240, 233, 104);
     border-radius: 4px;
     padding: 0 15px;
     font-size: 15px;
@@ -140,17 +140,17 @@ footer{
     margin-top: 5px;
   }
   .link-boxes .input-box input::placeholder{
-    color: #AFAFB6;
+    color: #000;
     font-size: 16px;
   }
   .link-boxes .input-box input[type="button"]{
-    background: #fff;
-    color: #122D42;
+    background: #FF0090;
+    color: #fff;
     border: none;
     font-size: 18px;
     font-weight: 500;
     margin: 4px 0;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     cursor: pointer;
     transition: all 0.4s ease;
   }
