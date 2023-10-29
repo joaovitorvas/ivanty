@@ -136,7 +136,7 @@ footer{
     border-radius: 4px;
     padding: 0 15px;
     font-size: 15px;
-    color: #fff;
+    color: #000;
     margin-top: 5px;
   }
   .link-boxes .input-box input::placeholder{
@@ -145,7 +145,7 @@ footer{
   }
   .link-boxes .input-box input[type="button"]{
     background: #FF0090;
-    color: #fff;
+    color: #000;
     border: none;
     font-size: 18px;
     font-weight: 500;
