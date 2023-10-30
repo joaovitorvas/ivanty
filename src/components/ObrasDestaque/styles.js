@@ -6,8 +6,8 @@ export const ObrasEmDestaqueContainer = styled.div`
     margin-top: 2rem;
     background: #122D42;
 
-    @media screen and (min-width: 1000px) {
-        padding: 1rem;
+    @media screen and (min-width: 1500px) {
+         padding: 1rem 5rem;
     }
 `
 
@@ -27,7 +27,7 @@ export const GridContainer = styled.div`
 
     @media screen and (min-width: 1500px) {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 `
 
