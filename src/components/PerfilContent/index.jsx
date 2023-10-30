@@ -1,12 +1,11 @@
 // import artist from './../../assets/images/artist.jpg'
 import { ContainerNameBio, GridContainer, PaintingsList, PerfilBio, PerfilDescription, PerfilHead, PerfilImage, PerfilName, PerfilPhoto, PhotoContainer } from './styles';
 import { PinturasCard } from '../PinturasCard';
-import backgroundPhoto from './../../assets/images/brazilianDiversity.jpg'
 
 export const PerfilContent = (props) => {
     return (
         <>
-            <PerfilImage src={backgrondPhoto}/> 
+            <PerfilImage src={props.backgrondPhoto}/> 
             <PerfilDescription>
                 <GridContainer>
                     <PhotoContainer>
