@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3a946f9.css",
-    "main.js": "/static/js/main.b0f58fb1.js",
+    "main.css": "/static/css/main.36b2ab24.css",
+    "main.js": "/static/js/main.dbf71455.js",
+    "static/media/popartBanner.png": "/static/media/popartBanner.823ca083503a61add97d.png",
     "static/media/photo.png": "/static/media/photo.6d2531737398375d19f0.png",
     "static/media/obra.jpg": "/static/media/obra.d8a5e03fd55930fbd813.jpg",
     "static/media/surrealistBanner.png": "/static/media/surrealistBanner.31a38347a9eb612ab28b.png",
+    "static/media/banner.png": "/static/media/banner.e438452aa0f3baf62263.png",
     "static/media/obra3.jpg": "/static/media/obra3.7d53bdef0916d10abae3.jpg",
     "static/media/obra2.jpg": "/static/media/obra2.80075afba81e86600d7f.jpg",
     "static/media/obras.jpg": "/static/media/obras.53c4a266aec0011a4271.jpg",
@@ -13,21 +15,16 @@
     "static/media/campoDeTrigo.jpg": "/static/media/campoDeTrigo.ed4c145a5c5928f63d53.jpg",
     "static/media/brazilianDiversity.jpg": "/static/media/brazilianDiversity.0154b767bff5cb34ee7e.jpg",
     "static/media/fotorreaslismoBiodiversity.jpg": "/static/media/fotorreaslismoBiodiversity.a21cd7c64a495802ed0f.jpg",
-    "static/media/categoriesBanner.jpg": "/static/media/categoriesBanner.2a8e78798821b60a0f5c.jpg",
-    "static/media/popartBanner.jpg": "/static/media/popartBanner.8fbfe57ace99c6615cda.jpg",
-    "static/media/fotografia.jfif": "/static/media/fotografia.8ab1fb034b31066a18ad.jfif",
     "static/media/arteConceitual.jpg": "/static/media/arteConceitual.a43277c33366b47b961c.jpg",
     "static/media/photo.jpg": "/static/media/photo.d8010ce0c1c934e1a31c.jpg",
     "static/media/obras2.jpg": "/static/media/obras2.0e9ec96a8cfbc5ba9ce4.jpg",
     "static/media/photo.webp": "/static/media/photo.edbdd2158cd39a23e8d4.webp",
     "static/media/IVANTY.png": "/static/media/IVANTY.bdddba7cbde7addb348d.png",
-    "static/media/banner.png": "/static/media/banner.8af33453deca59bad513.png",
     "static/media/obra2.webp": "/static/media/obra2.dc7b2f6aea0351acf4aa.webp",
     "static/media/facebook.png": "/static/media/facebook.bf58af28f6f6a7b48a7a.png",
     "static/media/arteMinimalista.jpg": "/static/media/arteMinimalista.18756c5c9c03a7c35327.jpg",
     "static/media/perfilImage.jpg": "/static/media/perfilImage.dc4273582c5ed98f49e3.jpg",
     "static/media/noiteEstrelada.jpg": "/static/media/noiteEstrelada.5259b512a05619b1b8dc.jpg",
-    "static/media/pintura.jpg": "/static/media/pintura.b60208aa7f6787f4493c.jpg",
     "static/media/instagram (1).png": "/static/media/instagram (1).79535458a8a6d88f81d4.png",
     "static/media/comedoresDeBatata.jpg": "/static/media/comedoresDeBatata.f8331d0fc08f96358e7c.jpg",
     "static/media/whatsapp.png": "/static/media/whatsapp.5fc400c4b153fc178ad7.png",
@@ -38,11 +35,11 @@
     "static/media/trash-sharp.svg": "/static/media/trash-sharp.c532913ba6a5464ebd0c0b66288e8829.svg",
     "static/media/heartPrenchido.svg": "/static/media/heartPrenchido.e9f7b663df20c628486e6c4cb3b977ae.svg",
     "static/media/heart.svg": "/static/media/heart.c716c58053f37d863ec5a387c02a19e2.svg",
-    "main.c3a946f9.css.map": "/static/css/main.c3a946f9.css.map",
-    "main.b0f58fb1.js.map": "/static/js/main.b0f58fb1.js.map"
+    "main.36b2ab24.css.map": "/static/css/main.36b2ab24.css.map",
+    "main.dbf71455.js.map": "/static/js/main.dbf71455.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3a946f9.css",
-    "static/js/main.b0f58fb1.js"
+    "static/css/main.36b2ab24.css",
+    "static/js/main.dbf71455.js"
   ]
 }
