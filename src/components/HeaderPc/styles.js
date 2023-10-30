@@ -5,6 +5,7 @@ export const HeaderContainers = styled.header`
   background: #000;
   position: fixed;
   width: 100%;
+  z-index: 1000;
 `
 export const FirstHeaderContainer = styled.div`
   display: grid;
