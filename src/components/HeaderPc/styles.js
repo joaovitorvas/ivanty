@@ -3,6 +3,8 @@ import styled from 'styled-components'
 export const HeaderContainers = styled.header`
   height: 5rem;
   background: #000;
+  position: fixed;
+  width: 100%;
 `
 export const FirstHeaderContainer = styled.div`
   display: grid;
