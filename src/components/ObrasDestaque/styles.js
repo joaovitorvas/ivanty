@@ -27,7 +27,7 @@ export const GridContainer = styled.div`
 
     @media screen and (min-width: 1500px) {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 `
 

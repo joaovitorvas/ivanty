@@ -4,6 +4,10 @@ export const Container = styled.div`
   background-color: #122D42;
   padding: 1rem;
   width: 100%;
+
+  @media screen and (min-width: 1500px) {
+    padding: 1rem 5rem;
+}
 `
 
 export const ArtContainer = styled.div`
