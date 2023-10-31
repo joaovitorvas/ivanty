@@ -131,21 +131,22 @@ footer{
     height: 40px;
     width: calc(100% + 55px);
     outline: none;
-    border: 2px solid #AFAFB6;
-    background: rgb(240, 233, 104);
+    border-radius: 1rem;
+    background: #3d3d3d;
+    border: 2px solid #fff;
     border-radius: 4px;
     padding: 0 15px;
     font-size: 15px;
-    color: #000;
+    color: #fff;
     margin-top: 5px;
   }
   .link-boxes .input-box input::placeholder{
-    color: #000;
+    color: #fff;
     font-size: 16px;
   }
   .link-boxes .input-box input[type="button"]{
     background: #FF0090;
-    color: #000;
+    color: #fff;
     border: none;
     font-size: 18px;
     font-weight: 500;

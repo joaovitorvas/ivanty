@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.36b2ab24.css",
-    "main.js": "/static/js/main.dbf71455.js",
+    "main.js": "/static/js/main.69235eb1.js",
     "static/media/popartBanner.png": "/static/media/popartBanner.823ca083503a61add97d.png",
     "static/media/photo.png": "/static/media/photo.6d2531737398375d19f0.png",
     "static/media/obra.jpg": "/static/media/obra.d8a5e03fd55930fbd813.jpg",
-    "static/media/surrealistBanner.png": "/static/media/surrealistBanner.31a38347a9eb612ab28b.png",
     "static/media/banner.png": "/static/media/banner.e438452aa0f3baf62263.png",
+    "static/media/surrealistBanner.png": "/static/media/surrealistBanner.f004d87498411026b4af.png",
     "static/media/obra3.jpg": "/static/media/obra3.7d53bdef0916d10abae3.jpg",
     "static/media/obra2.jpg": "/static/media/obra2.80075afba81e86600d7f.jpg",
     "static/media/obras.jpg": "/static/media/obras.53c4a266aec0011a4271.jpg",
@@ -36,10 +36,10 @@
     "static/media/heartPrenchido.svg": "/static/media/heartPrenchido.e9f7b663df20c628486e6c4cb3b977ae.svg",
     "static/media/heart.svg": "/static/media/heart.c716c58053f37d863ec5a387c02a19e2.svg",
     "main.36b2ab24.css.map": "/static/css/main.36b2ab24.css.map",
-    "main.dbf71455.js.map": "/static/js/main.dbf71455.js.map"
+    "main.69235eb1.js.map": "/static/js/main.69235eb1.js.map"
   },
   "entrypoints": [
     "static/css/main.36b2ab24.css",
-    "static/js/main.dbf71455.js"
+    "static/js/main.69235eb1.js"
   ]
 }
