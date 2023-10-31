@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.36b2ab24.css",
+    "main.css": "/static/css/main.90ded909.css",
     "main.js": "/static/js/main.69235eb1.js",
     "static/media/popartBanner.png": "/static/media/popartBanner.823ca083503a61add97d.png",
     "static/media/photo.png": "/static/media/photo.6d2531737398375d19f0.png",
@@ -35,11 +35,11 @@
     "static/media/trash-sharp.svg": "/static/media/trash-sharp.c532913ba6a5464ebd0c0b66288e8829.svg",
     "static/media/heartPrenchido.svg": "/static/media/heartPrenchido.e9f7b663df20c628486e6c4cb3b977ae.svg",
     "static/media/heart.svg": "/static/media/heart.c716c58053f37d863ec5a387c02a19e2.svg",
-    "main.36b2ab24.css.map": "/static/css/main.36b2ab24.css.map",
+    "main.90ded909.css.map": "/static/css/main.90ded909.css.map",
     "main.69235eb1.js.map": "/static/js/main.69235eb1.js.map"
   },
   "entrypoints": [
-    "static/css/main.36b2ab24.css",
+    "static/css/main.90ded909.css",
     "static/js/main.69235eb1.js"
   ]
 }

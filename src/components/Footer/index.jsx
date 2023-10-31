@@ -52,7 +52,7 @@ const Footer = () => {
           <ul className="box">
             <li className="link_name">Navegação</li>
             <li>
-              <a href={'./categories'}>Categorias</a>
+              <a href={'./'}>Home</a>
             </li>
             <li>
               <a href={'./profile'}>Perfil</a>
