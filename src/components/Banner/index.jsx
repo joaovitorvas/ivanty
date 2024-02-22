@@ -3,9 +3,9 @@ import './styles.css'
 export const Banner = ({imagem}) => {
     return (
         <>
-        <div className='bannerContainer'>
+        <section className='bannerContainer'>
            <img src={imagem} alt=""/>
-        </div>
+        </section>
         </>
     );
   }

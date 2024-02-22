@@ -8,7 +8,7 @@ import { NavigateButton } from "./styles";
 
 export const Header = (props) => {
     return (
-      <div className="headerTelasMenores">
+      <section className="headerTelasMenores">
 
       <HeaderContainers>
         <FirstHeaderContainer>
@@ -28,7 +28,7 @@ export const Header = (props) => {
             <NavigateButton>{props.item3}</NavigateButton>
           </a>
       </HeaderContainers>
-      </div>
+      </section>
 
     );
   }

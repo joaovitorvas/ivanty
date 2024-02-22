@@ -10,7 +10,7 @@ import brazilianDiversity from './../../assets/images/brazilianDiversity.jpg'
 const About = (props) => {
   return (
     <>
-    <div className="About">
+    <section className="About">
       <Header link={'./artists'} item={'Artistas'} link2={'./categories'} item2={'Categories'}/>
       <HeaderPC/>
       <Banner imagem={surrealistBanner}/>
@@ -38,9 +38,9 @@ const About = (props) => {
         <Image src={brazilianDiversity}/>
       </Container>
       <Footer/>
-    </div>
+    </section>
 
-    <div className="AboutPC">
+    <section className="AboutPC">
       <Header link={'./artists'} item={'Artistas'} link2={'./categories'} item2={'Categories'}/>
       <HeaderPC/>
       <Banner imagem={surrealistBanner}/>
@@ -80,7 +80,7 @@ const About = (props) => {
         </GridContainer>
       </Container>
       <Footer/>
-    </div>
+    </section>
     </>
   );
 }

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
+export const Container = styled.section`
   background-color: #122D42;
   padding: 1rem;
   width: 100%;

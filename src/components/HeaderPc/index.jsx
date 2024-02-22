@@ -6,7 +6,7 @@ import logo from './../../assets/images/Logotipo.svg'
 
 export const HeaderPC = () => {
     return (
-      <div className="headerTelasMaiores">
+      <section className="headerTelasMaiores">
 
       <HeaderContainers>
         <FirstHeaderContainer>
@@ -32,7 +32,7 @@ export const HeaderPC = () => {
         </FirstHeaderContainer>
        
       </HeaderContainers>
-      </div>
+      </section>
 
     );
   }
