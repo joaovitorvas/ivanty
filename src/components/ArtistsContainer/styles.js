@@ -21,6 +21,9 @@ export const Artist = styled.div`
 
 export const ArtistPicture = styled.img`
   width: 100%;
+  height: 12rem;
+  object-fit: cover;
+  margin-top: 1rem;
   margin: 0 auto;
   border-radius: 5rem;
   text-align: center;

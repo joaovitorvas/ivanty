@@ -15,9 +15,9 @@ import image12 from './../../assets/boticelli/photo.jpg'
 import { App, Carousel, GetImage, Item } from './styles';
 
 // Importe as imagens conforme necessário
-const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12]
+const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12]
 // Adicione os nomes dos artistas correspondentes às imagens
-const names = ['Van Gogh', 'Picasso', 'Da Vinci', 'Monet', 'Rembrandt', 'Dali', 'Warhol', 'Michelangelo', 'Raphael', 'Vermeer', 'Caravaggio', 'Botticelli']
+const names = ['Van Gogh', 'Picasso', 'Da Vinci', 'Monet', 'Rembrandt', 'Dali', 'Warhol', 'Michelangelo', 'Raphael', 'Vermeer', 'Caravaggio', 'Botticelli', 'Van Gogh', 'Picasso', 'Da Vinci', 'Monet', 'Rembrandt', 'Dali', 'Warhol', 'Michelangelo', 'Raphael', 'Vermeer', 'Caravaggio', 'Botticelli' ]
 // Adicione os links correspondentes aos artistas
 const links = ['/vangogh', '/picasso', '/davinci', '/monet', '/rembrandt', '/dali', '/warhol', '/michelangelo', '/raphael', '/vermeer', '/caravaggio', '/botticelli']
 
